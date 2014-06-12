@@ -7,7 +7,7 @@ To add a new circuit design, first choose a new ID:
 Archive your new design in git:
 
 1. `git checkout dev`
-1. Create a new directory (e.g., **ecam01**) for your PCB design files in this directory 
+1. Create a new directory (e.g., **ecam01**) for your PCB design files 
 1. Add your design files to the new directory
 1. `git add --all`
 1. `git commit -am "adding new PCB"`
