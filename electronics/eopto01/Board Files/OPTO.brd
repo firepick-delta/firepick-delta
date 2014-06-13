@@ -127,6 +127,7 @@
 <wire x1="43.612" y1="-1.778" x2="43.612" y2="11.674" width="0" layer="20"/>
 <wire x1="43.612" y1="11.674" x2="8.89" y2="11.674" width="0" layer="20"/>
 <wire x1="8.89" y1="11.674" x2="8.89" y2="-1.778" width="0" layer="20"/>
+<text x="9.398" y="10.16" size="0.8128" layer="25">FirePick 2014 ©</text>
 </plain>
 <libraries>
 <library name="optocoupler">
@@ -420,10 +421,10 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U$1" library="optocoupler" package="TCST2103" value="TCST2103" x="29.718" y="6.35" smashed="yes">
-<attribute name="VALUE" x="22.733" y="1.905" size="1.27" layer="21" rot="R90"/>
+<attribute name="VALUE" x="36.449" y="10.287" size="0.8128" layer="21" rot="R180"/>
 </element>
 <element name="R1" library="adafruit" package="R0805" value="10K" x="19.812" y="1.524" smashed="yes" rot="R90">
-<attribute name="VALUE" x="21.082" y="2.032" size="0.6096" layer="27" rot="R270"/>
+<attribute name="VALUE" x="21.082" y="1.524" size="0.6096" layer="27" rot="R270"/>
 </element>
 <element name="R2" library="adafruit" package="R0805" value="150Ohm" x="37.338" y="1.524" smashed="yes" rot="R90">
 <attribute name="VALUE" x="36.068" y="0" size="0.6096" layer="27" rot="R90"/>
@@ -436,7 +437,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="25.654" y="0" size="0.6096" layer="27" rot="R90"/>
 </element>
 <element name="JP1" library="adafruit" package="1X03-CLEANBIG" value="" x="10.668" y="4.064" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.6012" y="3.4798" size="0.6096" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="9.814090625" y="4.687590625" size="0.6096" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="7.493" y="7.874" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="PAD1" library="wirepad" package="SMD1,27-2,54" value="WIREPADSMD1,27-254" x="13.97" y="6.604" smashed="yes" rot="R90">
@@ -446,7 +447,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="14.846" y="5.55" size="0.6096" layer="25" rot="R180"/>
 </element>
 <element name="PAD3" library="wirepad" package="SMD1,27-2,54" value="WIREPADSMD1,27-254" x="13.97" y="1.524" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.846" y="0.47" size="0.6096" layer="25" rot="R180"/>
+<attribute name="NAME" x="14.846" y="3.01" size="0.6096" layer="25" rot="R180"/>
 </element>
 </elements>
 <signals>
@@ -459,7 +460,7 @@ design rules under a new name.</description>
 <polygon width="0.3048" layer="1">
 <vertex x="43.688" y="11.684"/>
 <vertex x="8.89" y="11.684"/>
-<vertex x="8.89" y="-2.032"/>
+<vertex x="8.89" y="-1.778"/>
 <vertex x="43.688" y="-1.778"/>
 </polygon>
 </signal>
