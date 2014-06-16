@@ -1,0 +1,234 @@
+Cmp-Mod V01 Created by PcbNew date = 15-06-2014 01:20:46
+
+BeginCmp
+TimeStamp = /539CCC07;
+Reference = BOB1;
+ValeurCmp = FRUITY_ADXL345;
+IdModule  = Lerche_9P_2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53939116;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5397886C;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53973E2E;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53939123;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53953A0F;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5393B205;
+Reference = C11;
+ValeurCmp = 0.1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /539940E8;
+Reference = C12;
+ValeurCmp = 10uF;
+IdModule  = c_tant_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5393D3B9;
+Reference = C13;
+ValeurCmp = 0.1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53953D66;
+Reference = C15;
+ValeurCmp = 0.1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5393D430;
+Reference = C16;
+ValeurCmp = 0.1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5393D4E1;
+Reference = C17;
+ValeurCmp = 22uF_tantalum;
+IdModule  = c_tant_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /539932B7;
+Reference = C18;
+ValeurCmp = 100uF_tantalum;
+IdModule  = c_tant_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5395524A;
+Reference = C19;
+ValeurCmp = 0.1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53973410;
+Reference = IC1;
+ValeurCmp = ST490;
+IdModule  = so-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5395311E;
+Reference = IC3;
+ValeurCmp = ATMEGA328P-M;
+IdModule  = QFN32-5x5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5393899B;
+Reference = J1;
+ValeurCmp = MOLEX_46765-1302;
+IdModule  = Lerche__Mini_HDMI_CNCTech_2001-1-2-21-00-BK;
+EndCmp
+
+BeginCmp
+TimeStamp = /5393897D;
+Reference = J2;
+ValeurCmp = CONN_15_RPI-CAM;
+IdModule  = Lerche_Molex-0522711569;
+EndCmp
+
+BeginCmp
+TimeStamp = /5397ECD9;
+Reference = J3;
+ValeurCmp = AVR_ISP_HEADER;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53977770;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53975796;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /539757A3;
+Reference = K3;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5399305E;
+Reference = K4;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5393B3A6;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = Lerche_Molex_Microfit_0430450607;
+EndCmp
+
+BeginCmp
+TimeStamp = /539CD8BA;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = Lerche_1P_CONN;
+EndCmp
+
+BeginCmp
+TimeStamp = /53977907;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = Lerche_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /539786E7;
+Reference = R2;
+ValeurCmp = 5k6;
+IdModule  = Lerche_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /539396A3;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = Lerche_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53971A14;
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = Lerche_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5393DC04;
+Reference = R8;
+ValeurCmp = 100R;
+IdModule  = Lerche_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53971A1A;
+Reference = R10;
+ValeurCmp = 10k;
+IdModule  = Lerche_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5393D1E9;
+Reference = VREG2;
+ValeurCmp = AMS1117;
+IdModule  = Lerche_SOT89;
+EndCmp
+
+BeginCmp
+TimeStamp = /539397E8;
+Reference = X1;
+ValeurCmp = RESONATOR_16MHz;
+IdModule  = Lerche_CSTCE_G_Resonator;
+EndCmp
+
+EndListe
