@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 16-06-2014 19:18:29
+
+BeginCmp
+TimeStamp = /539F1ED5;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /539F1EE2;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /539F1EB1;
+Reference = J1;
+ValeurCmp = MOLEX_47151-1101;
+IdModule  = Lerche_Molex_47152-1101;
+EndCmp
+
+BeginCmp
+TimeStamp = /539F1EEE;
+Reference = J2;
+ValeurCmp = CONN_15_RPI-CAM;
+IdModule  = Lerche_Molex-0522711569;
+EndCmp
+
+EndListe
