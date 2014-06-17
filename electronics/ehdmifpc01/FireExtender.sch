@@ -30,15 +30,16 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:lerchetech
+LIBS:FireExtender-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "HDMI to FPC for RPi Cam"
 Date "16 jun 2014"
-Rev ""
-Comp ""
+Rev "A"
+Comp "Firepick"
 Comment1 ""
 Comment2 ""
 Comment3 ""
