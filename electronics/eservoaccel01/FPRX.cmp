@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 17-06-2014 16:46:29
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 18-06-2014 06:34:01
 
 BeginCmp
 TimeStamp = /539CCC07;
@@ -155,6 +155,13 @@ IdModule  = Lerche_R0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /53A117FC;
+Reference = R3;
+ValeurCmp = 300;
+IdModule  = Lerche_R0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /539396A3;
 Reference = R6;
 ValeurCmp = 10k;
@@ -164,7 +171,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5393DC04;
 Reference = R8;
-ValeurCmp = 100R;
+ValeurCmp = 300;
 IdModule  = Lerche_R0603;
 EndCmp
 

@@ -37,7 +37,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "FirePick - µHDMI RPi Cam + WS2812 + Accelerometer"
-Date "17 jun 2014"
+Date "18 jun 2014"
 Rev "1"
 Comp "FirePick"
 Comment1 ""
@@ -303,7 +303,7 @@ L R R8
 U 1 1 5393DC04
 P 9150 6050
 F 0 "R8" V 9230 6050 40  0000 C CNN
-F 1 "100R" V 9157 6051 40  0000 C CNN
+F 1 "300" V 9157 6051 40  0000 C CNN
 F 2 "~" V 9080 6050 30  0000 C CNN
 F 3 "~" H 9150 6050 30  0000 C CNN
 	1    9150 6050
@@ -929,12 +929,23 @@ $EndComp
 Connection ~ 7800 3350
 Text GLabel 8400 6250 2    39   Output ~ 0
 DOUT_STATUS
-Text GLabel 7650 3150 0    39   Input ~ 0
+Text GLabel 7150 3250 0    39   Input ~ 0
 DOUT_STATUS
-Wire Wire Line
-	7900 3150 7650 3150
 Wire Wire Line
 	7350 1900 7750 1900
 Wire Wire Line
 	6200 2300 7750 2300
+Wire Wire Line
+	7900 3250 7650 3250
+$Comp
+L R R3
+U 1 1 53A117FC
+P 7400 3250
+F 0 "R3" V 7480 3250 40  0000 C CNN
+F 1 "300" V 7407 3251 40  0000 C CNN
+F 2 "~" V 7330 3250 30  0000 C CNN
+F 3 "~" H 7400 3250 30  0000 C CNN
+	1    7400 3250
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
