@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1468,6 +1468,11 @@ design rules under a new name.</description>
 <element name="J9" library="!NJ SMT" package="CON-FFC-SFW15R" value="CON-FFC-SFW15R" x="-132.08" y="-242.57"/>
 <element name="J11" library="!con-lstb" package="MA06-1" value="" x="-135.89" y="-257.81"/>
 <element name="J12" library="!con-lstb" package="MA02-1" value="" x="-140.97" y="-262.89"/>
+<element name="R6" library="adafruit" package="R0805" value="330" x="-140.97" y="-288.29"/>
+<element name="LED2" library="led" package="CHIP-LED0805" value="PWR" x="-134.62" y="-288.29"/>
+<element name="JP2" library="pinhead-2" package="2X03SMD" value="ICSP" x="-139.7" y="-278.13"/>
+<element name="C9" library="rcl" package="PANASONIC_D" value="100uF" x="-129.54" y="-278.13"/>
+<element name="JP5" library="SparkFun" package="MOLEX-1X4" value="I2C" x="-142.24" y="-269.24"/>
 </elements>
 <signals>
 <signal name="GND" class="1">
@@ -1565,6 +1570,10 @@ design rules under a new name.</description>
 <contactref element="J7" pad="3"/>
 <contactref element="J11" pad="5"/>
 <contactref element="J11" pad="6"/>
+<contactref element="C9" pad="-"/>
+<contactref element="JP2" pad="1"/>
+<contactref element="LED2" pad="C"/>
+<contactref element="JP5" pad="3"/>
 <wire x1="-122.92" y1="-48.6" x2="-124.09" y2="-58.42" width="0" layer="19" extent="1-1"/>
 <wire x1="-103.82" y1="-26.67" x2="-122.92" y2="-48.6" width="0" layer="19" extent="1-1"/>
 <wire x1="-103.82" y1="-22.86" x2="-103.82" y2="-26.67" width="0" layer="19" extent="1-1"/>
@@ -1658,9 +1667,15 @@ design rules under a new name.</description>
 <wire x1="-138.43" y1="-228.6" x2="-135.89" y2="-218.44" width="0" layer="19" extent="1-1"/>
 <wire x1="-132.08" y1="-257.81" x2="-138.43" y2="-228.6" width="0" layer="19" extent="1-1"/>
 <wire x1="-129.54" y1="-257.81" x2="-132.08" y2="-257.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-137.16" y1="-269.24" x2="-132.08" y2="-257.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-131.94" y1="-278.13" x2="-137.16" y2="-269.24" width="0" layer="19" extent="1-1"/>
+<wire x1="-134.62" y1="-287.24" x2="-131.94" y2="-278.13" width="0" layer="19" extent="1-1"/>
+<wire x1="-140.97" y1="-281.94" x2="-134.62" y2="-287.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!RESET">
 <contactref element="JP4" pad="2"/>
+<contactref element="JP2" pad="2"/>
+<wire x1="-78.74" y1="7.62" x2="-140.97" y2="-276.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="12V">
 <contactref element="C7" pad="+"/>
@@ -1693,6 +1708,8 @@ design rules under a new name.</description>
 <contactref element="J5" pad="1"/>
 <contactref element="J6" pad="1"/>
 <contactref element="J6" pad="2"/>
+<contactref element="C9" pad="+"/>
+<wire x1="-140.97" y1="-213.36" x2="-127.14" y2="-278.13" width="0" layer="19" extent="1-1"/>
 <wire x1="-140.97" y1="-210.82" x2="-140.97" y2="-213.36" width="0" layer="19" extent="1-1"/>
 <wire x1="-140.97" y1="-205.74" x2="-140.97" y2="-210.82" width="0" layer="19" extent="1-1"/>
 <wire x1="-140.97" y1="-203.2" x2="-140.97" y2="-205.74" width="0" layer="19" extent="1-1"/>
@@ -1726,12 +1743,16 @@ design rules under a new name.</description>
 <signal name="MISO">
 <contactref element="JP4" pad="6"/>
 <contactref element="U5" pad="2"/>
-<wire x1="-73.66" y1="7.62" x2="72.417896875" y2="21.063946875" width="0" layer="19" extent="1-1"/>
+<contactref element="JP2" pad="6"/>
+<wire x1="-73.66" y1="7.62" x2="-135.89" y2="-276.86" width="0" layer="19" extent="1-1"/>
+<wire x1="72.417896875" y1="21.063946875" x2="-73.66" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOSI">
 <contactref element="JP4" pad="3"/>
 <contactref element="U5" pad="1"/>
-<wire x1="-76.2" y1="2.54" x2="71.861121875" y2="21.620721875" width="0" layer="19" extent="1-1"/>
+<contactref element="JP2" pad="3"/>
+<wire x1="-76.2" y1="2.54" x2="-138.43" y2="-281.94" width="0" layer="19" extent="1-1"/>
+<wire x1="71.861121875" y1="21.620721875" x2="-76.2" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="X-STOP">
 <contactref element="JP12" pad="P1"/>
@@ -1751,7 +1772,9 @@ design rules under a new name.</description>
 <signal name="SCLK">
 <contactref element="JP4" pad="4"/>
 <contactref element="U5" pad="3"/>
-<wire x1="-76.2" y1="7.62" x2="72.992634375" y2="20.489209375" width="0" layer="19" extent="1-1"/>
+<contactref element="JP2" pad="4"/>
+<wire x1="-76.2" y1="7.62" x2="-138.43" y2="-276.86" width="0" layer="19" extent="1-1"/>
+<wire x1="72.992634375" y1="20.489209375" x2="-76.2" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!XYZ-ENABLE">
 <contactref element="U4" pad="23"/>
@@ -1992,6 +2015,9 @@ design rules under a new name.</description>
 <contactref element="U4" pad="6"/>
 <contactref element="U4" pad="5"/>
 <contactref element="J11" pad="4"/>
+<contactref element="R6" pad="2"/>
+<contactref element="JP2" pad="5"/>
+<contactref element="JP5" pad="4"/>
 <wire x1="-122.92" y1="-53" x2="-122.29" y2="-58.42" width="0" layer="19" extent="1-1"/>
 <wire x1="-121.42" y1="-53" x2="-122.92" y2="-53" width="0" layer="19" extent="1-1"/>
 <wire x1="-101.92" y1="-22.86" x2="-121.42" y2="-53" width="0" layer="19" extent="1-1"/>
@@ -2043,6 +2069,9 @@ design rules under a new name.</description>
 <wire x1="-133.35" y1="-198.12" x2="-133.35" y2="-203.2" width="0" layer="19" extent="1-1"/>
 <wire x1="-140.97" y1="-228.6" x2="-140.97" y2="-218.44" width="0" layer="19" extent="1-1"/>
 <wire x1="-134.62" y1="-257.81" x2="-140.97" y2="-228.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-134.62" y1="-269.24" x2="-134.62" y2="-257.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-135.89" y1="-281.94" x2="-134.62" y2="-269.24" width="0" layer="19" extent="1-1"/>
+<wire x1="-139.97" y1="-288.29" x2="-135.89" y2="-281.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL" class="1">
 <contactref element="JP7" pad="1"/>
@@ -2051,11 +2080,13 @@ design rules under a new name.</description>
 <contactref element="J3" pad="6"/>
 <contactref element="J5" pad="6"/>
 <contactref element="J6" pad="6"/>
+<contactref element="JP5" pad="1"/>
 <wire x1="-34.29" y1="41.91" x2="-122.42" y2="-53" width="0" layer="19" extent="1-1"/>
 <wire x1="-135.89" y1="-187.96" x2="-122.42" y2="-53" width="0" layer="19" extent="1-1"/>
 <wire x1="-135.89" y1="-195.58" x2="-135.89" y2="-187.96" width="0" layer="19" extent="1-1"/>
 <wire x1="-135.89" y1="-203.2" x2="-135.89" y2="-195.58" width="0" layer="19" extent="1-1"/>
 <wire x1="-135.89" y1="-210.82" x2="-135.89" y2="-203.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-142.24" y1="-269.24" x2="-135.89" y2="-210.82" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDA" class="1">
 <contactref element="JP7" pad="2"/>
@@ -2064,11 +2095,13 @@ design rules under a new name.</description>
 <contactref element="J3" pad="5"/>
 <contactref element="J5" pad="5"/>
 <contactref element="J6" pad="5"/>
+<contactref element="JP5" pad="2"/>
 <wire x1="-31.75" y1="41.91" x2="-121.92" y2="-53" width="0" layer="19" extent="1-1"/>
 <wire x1="-135.89" y1="-190.5" x2="-121.92" y2="-53" width="0" layer="19" extent="1-1"/>
 <wire x1="-135.89" y1="-198.12" x2="-135.89" y2="-190.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-135.89" y1="-205.74" x2="-135.89" y2="-198.12" width="0" layer="19" extent="1-1"/>
 <wire x1="-135.89" y1="-213.36" x2="-135.89" y2="-205.74" width="0" layer="19" extent="1-1"/>
+<wire x1="-139.7" y1="-269.24" x2="-135.89" y2="-213.36" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET">
 <contactref element="SW1" pad="B"/>
