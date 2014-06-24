@@ -1535,52 +1535,48 @@ design rules under a new name.</description>
 <contactref element="JP16" pad="1"/>
 <contactref element="R9" pad="1"/>
 <contactref element="C10" pad="2"/>
-<wire x1="-42.28" y1="81.28" x2="-27.67" y2="93.98" width="0" layer="19" extent="1-1"/>
-<wire x1="-31.75" y1="60.96" x2="-42.28" y2="81.28" width="0" layer="19" extent="1-1"/>
+<contactref element="U5" pad="36"/>
+<wire x1="-31.75" y1="60.96" x2="76.369209375" y2="28.6073625" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.28" y1="81.28" x2="-31.75" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.67" y1="93.98" x2="-42.28" y2="81.28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B-THERM">
 <contactref element="R10" pad="1"/>
 <contactref element="JP15" pad="1"/>
 <contactref element="C9" pad="2"/>
-<wire x1="-35.93" y1="81.28" x2="-32.75" y2="93.98" width="0" layer="19" extent="1-1"/>
-<wire x1="-21.59" y1="60.96" x2="-35.93" y2="81.28" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="Y-STEP">
-<contactref element="U3" pad="11"/>
-</signal>
-<signal name="Y-DIR">
-<contactref element="U3" pad="14"/>
+<contactref element="U5" pad="37"/>
+<wire x1="-21.59" y1="60.96" x2="75.812434375" y2="28.0505875" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.93" y1="81.28" x2="-21.59" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-32.75" y1="93.98" x2="-35.93" y2="81.28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!HOTBED">
 <contactref element="R35" pad="1"/>
 <contactref element="R11" pad="1"/>
+<contactref element="U5" pad="13"/>
+<wire x1="-53.07" y1="93.98" x2="80.53605" y2="16.537896875" width="0" layer="19" extent="1-1"/>
 <wire x1="-61.96" y1="87.63" x2="-53.07" y2="93.98" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!HOTEND">
 <contactref element="R6" pad="1"/>
 <contactref element="R36" pad="1"/>
+<contactref element="U5" pad="15"/>
+<wire x1="-73.39" y1="93.98" x2="81.6675625" y2="17.669409375" width="0" layer="19" extent="1-1"/>
 <wire x1="-94.98" y1="81.28" x2="-73.39" y2="93.98" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="X-STOP">
 <contactref element="JP12" pad="P1"/>
+<contactref element="U5" pad="40"/>
+<wire x1="-56.3925" y1="30.5275" x2="74.124146875" y2="26.362296875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="Y-STOP">
 <contactref element="JP8" pad="P1"/>
+<contactref element="U5" pad="41"/>
+<wire x1="-38.6125" y1="30.5275" x2="73.549409375" y2="25.7875625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="Z-STOP">
 <contactref element="JP10" pad="P1"/>
-</signal>
-<signal name="X-STEP">
-<contactref element="U2" pad="11"/>
-</signal>
-<signal name="X-DIR">
-<contactref element="U2" pad="14"/>
-</signal>
-<signal name="Z-STEP">
-<contactref element="U4" pad="11"/>
-</signal>
-<signal name="Z-DIR">
-<contactref element="U4" pad="14"/>
+<contactref element="U5" pad="42"/>
+<wire x1="-47.5025" y1="30.5275" x2="72.992634375" y2="25.2307875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCLK">
 <contactref element="JP4" pad="4"/>
@@ -1608,6 +1604,8 @@ design rules under a new name.</description>
 <signal name="!PWM-FAN">
 <contactref element="R14" pad="1"/>
 <contactref element="Q3" pad="1"/>
+<contactref element="U5" pad="14"/>
+<wire x1="-17.51" y1="87.63" x2="81.1107875" y2="17.112634375" width="0" layer="19" extent="1-1"/>
 <wire x1="-53.22" y1="61.91" x2="-17.51" y2="87.63" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3V3" class="1">
@@ -2019,12 +2017,6 @@ design rules under a new name.</description>
 <contactref element="MS-Z1" pad="3"/>
 <wire x1="-137.51" y1="-128.83" x2="-135.001" y2="-151.13" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="A-DIR">
-<contactref element="U6" pad="14"/>
-</signal>
-<signal name="A-STEP">
-<contactref element="U6" pad="11"/>
-</signal>
 <signal name="!A-ENABLE">
 <contactref element="U6" pad="23"/>
 <contactref element="R29" pad="2"/>
@@ -2057,11 +2049,6 @@ design rules under a new name.</description>
 <contactref element="U3" pad="19"/>
 <contactref element="JP1" pad="P3"/>
 <wire x1="-42.26" y1="55.07" x2="-70.87" y2="30.5275" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$25">
-<contactref element="U3" pad="18"/>
-<contactref element="JP1" pad="P4"/>
-<wire x1="-41.61" y1="55.07" x2="-72.87" y2="30.5275" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$26">
 <contactref element="U3" pad="15"/>
@@ -2112,6 +2099,60 @@ design rules under a new name.</description>
 <contactref element="U6" pad="22"/>
 <contactref element="JP11" pad="P1"/>
 <wire x1="-139.46" y1="-122.73" x2="-135.45" y2="-134.5725" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="Z_ENABLE">
+<contactref element="U5" pad="25"/>
+</signal>
+<signal name="A-ENABLE">
+<contactref element="U5" pad="26"/>
+</signal>
+<signal name="Y-ENABLE">
+<contactref element="U5" pad="24"/>
+</signal>
+<signal name="X-ENABLE">
+<contactref element="U5" pad="23"/>
+</signal>
+<signal name="DIR">
+<contactref element="U5" pad="22"/>
+<contactref element="U4" pad="14"/>
+<contactref element="U6" pad="14"/>
+<contactref element="U3" pad="14"/>
+<contactref element="U2" pad="14"/>
+<wire x1="-26.31" y1="55.07" x2="85.618875" y2="21.620721875" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.01" y1="55.07" x2="-26.31" y2="55.07" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.71" y1="55.07" x2="-39.01" y2="55.07" width="0" layer="19" extent="1-1"/>
+<wire x1="-134.26" y1="-122.73" x2="-51.71" y2="55.07" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="STEP">
+<contactref element="U5" pad="21"/>
+<contactref element="U4" pad="11"/>
+<contactref element="U6" pad="11"/>
+<contactref element="U3" pad="11"/>
+<contactref element="U2" pad="11"/>
+<wire x1="-26.31" y1="48.97" x2="85.0621" y2="21.063946875" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.01" y1="48.97" x2="-26.31" y2="48.97" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.71" y1="48.97" x2="-39.01" y2="48.97" width="0" layer="19" extent="1-1"/>
+<wire x1="-134.26" y1="-128.83" x2="-51.71" y2="48.97" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$25">
+<contactref element="U3" pad="18"/>
+<contactref element="JP1" pad="P4"/>
+<wire x1="-41.61" y1="55.07" x2="-72.87" y2="30.5275" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="A-STOP">
+<contactref element="U5" pad="43"/>
+</signal>
+<signal name="PD0-RX1">
+<contactref element="U5" pad="9"/>
+</signal>
+<signal name="PD1-TX1">
+<contactref element="U5" pad="10"/>
+</signal>
+<signal name="PD2-RX2">
+<contactref element="U5" pad="11"/>
+</signal>
+<signal name="PD3-TX2">
+<contactref element="U5" pad="12"/>
 </signal>
 </signals>
 </board>
