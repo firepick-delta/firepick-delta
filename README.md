@@ -1,4 +1,4 @@
 firepick-delta
 ==============
 
-Design and Manufacturing Specifications for FirePick Delta
+This repo is depreciated!  Please update your bookmarks to https://github.com/firepick-delta/firepick-delta
