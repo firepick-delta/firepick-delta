@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 18-06-2014 06:34:01
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 07-07-2014 03:27:54
 
 BeginCmp
 TimeStamp = /539CCC07;
@@ -15,13 +15,6 @@ IdModule  = c_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /53973E2E;
-Reference = C4;
-ValeurCmp = 0.1uF;
-IdModule  = c_0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /53953A0F;
 Reference = C8;
 ValeurCmp = 0.1uF;
@@ -31,20 +24,6 @@ EndCmp
 BeginCmp
 TimeStamp = /5393B205;
 Reference = C11;
-ValeurCmp = 0.1uF;
-IdModule  = c_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /539940E8;
-Reference = C12;
-ValeurCmp = 10uF;
-IdModule  = c_tant_A;
-EndCmp
-
-BeginCmp
-TimeStamp = /5393D3B9;
-Reference = C13;
 ValeurCmp = 0.1uF;
 IdModule  = c_0603;
 EndCmp
@@ -66,8 +45,8 @@ EndCmp
 BeginCmp
 TimeStamp = /5393D4E1;
 Reference = C17;
-ValeurCmp = 22uF_tantalum;
-IdModule  = c_tant_A;
+ValeurCmp = 100uF;
+IdModule  = c_elec_5x5.8;
 EndCmp
 
 BeginCmp
@@ -78,10 +57,10 @@ IdModule  = c_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /53973410;
-Reference = IC1;
-ValeurCmp = ST490;
-IdModule  = so-8;
+TimeStamp = /53B7C50D;
+Reference = CONN1;
+ValeurCmp = USB_MINI;
+IdModule  = Lerche_Molex_47610-0001_Micro-USB;
 EndCmp
 
 BeginCmp
@@ -127,13 +106,6 @@ IdModule  = Lerche_WS2812;
 EndCmp
 
 BeginCmp
-TimeStamp = /5393B3A6;
-Reference = P1;
-ValeurCmp = CONN_6;
-IdModule  = Lerche_Molex_Microfit_0430450607;
-EndCmp
-
-BeginCmp
 TimeStamp = /539CD8BA;
 Reference = P2;
 ValeurCmp = CONN_1;
@@ -162,6 +134,20 @@ IdModule  = Lerche_R0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /53B7C72E;
+Reference = R4;
+ValeurCmp = 2k2;
+IdModule  = Lerche_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B7C73F;
+Reference = R5;
+ValeurCmp = 2k2;
+IdModule  = Lerche_R0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /539396A3;
 Reference = R6;
 ValeurCmp = 10k;
@@ -173,13 +159,6 @@ TimeStamp = /5393DC04;
 Reference = R8;
 ValeurCmp = 300;
 IdModule  = Lerche_R0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5393D1E9;
-Reference = VREG2;
-ValeurCmp = AMS1117;
-IdModule  = Lerche_SOT89;
 EndCmp
 
 BeginCmp
