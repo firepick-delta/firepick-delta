@@ -1,0 +1,44 @@
+Part Identifier,Dependancies,Description,P/N,Price,Quantity,$358.19,Manufacturer,Distrib,Notes,URL
+PG01,,"Glass plate (4mm / 3/16"" thick, 214x214mm L/W)",,$5.00,1,$5.00,,???,Cut locally. $5 where I live.,
+PM01,,"Steel plate, custom, for heated bed, 214 x 214 mm",,,1,$0.00,,???,,
+AD01,,Traxxas 5347 end links,,$0.59,12,$7.09,,Amazon,Delta rod links,http://www.amazon.com/Traxxas-5347-Hollow-Balls-Large/dp/B000BOLVJY/ref=sr_1_1?ie=UTF8&qid=1399072336&sr=8-1&keywords=traxxas+5347
+ER02,,"SD card, for Raspberry Pi",,$7.97,1,$7.97,Sandisk,Amazon,Raspberry Pi,http://www.amazon.com/dp/B00812K4V4/ref=pe_385040_30332190_TE_M3T1_ST1_dp_2
+ER03,,WiFi for Raspberry Pi,,$9.99,1,$9.99,Edimax,Amazon,Raspberry Pi,http://www.amazon.com/Edimax-EW-7811Un-Wireless-Adapter-Wizard/dp/B003MTTJOY/ref=sr_1_1?ie=UTF8&qid=1403902309&sr=8-1&keywords=edimax+wifi
+ER04,,HDMI cable (Camera interface),,$5.99,1,$5.99,,Amazon,For RasPi camera extender,http://www.amazon.com/AmazonBasics-High-Speed-HDMI-Cable-Meters/dp/B003L1ZYYM/ref=sr_1_2?ie=UTF8&qid=1403903622&sr=8-2&keywords=hdmi+cable
+EP01,,ATX standard 400W power supply,,$17.00,1,$17.00,,Amazon,,
+TLNR01,,Luer lock blunt-tip needles / syringes,,$0.07,1,$0.07,,Amazon,SMT nozzle,
+DE01,,"Carbon fiber rods, 235mm",,$1.81,6,$10.88,,Dragonplate,Delta rod links,http://dragonplate.com/ecart/product.asp?pID=688&cID=102
+,,"1/4""OD x1/8""ID x1/4""T ring rare earth magnets",,$0.50,9,$4.50,,eBay/Magnet4us,Auto-tool changer,
+T3DP01,,J-Head Lite,,$20.00,1,$20.00,,eBay/OhioPlastics,,http://www.ebay.com/itm/The-J-Head-Lite-V2-Ultimate-Economy-RepRap-3D-Printer-Hot-End-For-1-75mm-ABS-PLA-/251512782727?pt=LH_DefaultDomain_0&var=&hash=item3a8f547f87
+ER01,,Raspberry Pi Model B,,$35.00,1,$35.00,,Element14,,
+EC01,,Raspberry Pi camera module,,$25.00,1,$25.00,,Element14,,
+PC01,,"Acrylic sheet, top cover and delta mechanism plate",24112-14,$23.36,1,$23.36,,Inventables,Frame,https://www.inventables.com/technologies/black-acrylic-sheet
+PC02,,"Acrylic sheet, bottom plate",24112-01,$11.21,1,$11.21,,Inventables,Frame,https://www.inventables.com/technologies/black-acrylic-sheet
+DTR01,,"M8 threaded rod, ~100mm (need to cut)",98861A080,$0.23,1,$0.23,,McMaster Carr,Delta motor assembly,http://www.mcmaster.com/#98861a080
+DB02,,"Bearing, 3/8"" Shaft Diameter, 7/8"" OD", 60355K703 ,$6.41,1,$6.41,,McMaster Carr,For SMT vacuum nozzle rotation,http://www.mcmaster.com/#60355k703
+DB03,,"Bearing, 1/4"" Shaft Diameter, 11/16"" OD, 1/4"" Wide", 6383k12 ,$5.30,1,$5.30,,McMaster Carr,For SMT vacuum nozzle rotation,http://www.mcmaster.com/#6383k12
+VH01,,"Standoff, Aluminum, Female Threaded Round, 1/4"" OD, 1"" Length", 93330A420 ,$0.60,1,$0.60,,McMaster Carr,For SMT vacuum nozzle rotation,http://www.mcmaster.com/#93330A420
+VH02,,"Leur coupling, Nickel-Plated Brass Plug, 10-32 Male UNF Thread", 51465k151 ,$6.15,1,$6.15,,McMaster Carr,For SMT vacuum nozzle rotation,http://www.mcmaster.com/#51465k151
+DR01,,"Multipurpose O1 Tool Steel, Tight-Tolerance Rod, 5mm Diameter, 3' Long", 88625k64 ,$3.62,1,$3.62,,McMaster Carr,For SMT feeders - shaft for takeup spool,http://www.mcmaster.com/#88625k64
+FH01,,"Set screw, conformable soft nylon-tip, M3 x 0.5 Thread, 6mm Long", 94095a025 ,$1.24,1,$1.24,,McMaster Carr,For SMT feeders - clutch for takeup spool shaft,http://www.mcmaster.com/#94095a025
+VF01,,"Push-to-Connect Tube Fitting for Air, Straight Adapter for 4mm Tube OD x 1/8 NPT Pipe", 5225k711 ,$2.30,2,$4.60,,McMaster Carr,For 3D print head bowden tube,http://www.mcmaster.com/#5225k711
+VT01,,"Tubing, PTFE, 2mm ID, 4mm OD, 1mm Wall Thickness, Clear", 5733k52 ,$2.38,2,$4.76,,McMaster Carr,For 3D print head bowden tube,http://www.mcmaster.com/#5733k52
+FH02,,M4 set screws x 20mm,,$0.15,12,$1.82,,McMaster Carr,Delta rod links,
+XE501,,"Extrusion, frame, top/bottom",HFS5-2020-260,$3.03,8,$24.24,,Misumi,Frame,
+XE502,,"Extrusion, frame, sides",HFS5-2020-500,$2.85,4,$11.40,,Misumi,Frame,
+XEH503,,"Extrusion, nuts (pre-insertion)",PACK-HNTT5-5,$0.03,100,$3.22,,Misumi,Frame.  Need to count actual amount of nuts.,
+XEH504,,"Extrusion, nuts (post-insertion)",,,,$0.00,,Misumi,Frame.  Use these for anything that gets bolted to the assembled frame.,
+XEB505,,Diagonal braces for extrusion (OR we can 3D print these),HBLFSN5,$0.75,16,$12.00,,Misumi,Frame,
+EM01,,NEMA 17 stepper motor,7,$6.80,3,$20.40,RobotDigg,RobotDigg,Delta motor assembly,"http://robotdigg.com/product/7/NEMA17-Stepper-Motor-40mm-Long,-1.2A"
+DP01,,"Pulley, GT2, 16T, aluminum",59,$2.00,3,$6.00,RobotDigg,RobotDigg,Delta motor assembly,http://robotdigg.com/product/59/Rostock-16-Teeth-5mm-Bore-GT2-Pulley
+DG01,,GT2 belt - 3x 360mm,10,$2.00,1,$2.00,,RobotDigg,Delta motor assembly,http://robotdigg.com/product/10/Open-Ended-6mm-Width-GT2-Belt
+ES01,,Limit switch,141,$2.70,1,$2.70,,RobotDigg,Z touch probe,"http://robotdigg.com/product/141/Endstop,-Snap-Action-Limit-Switch-SS-5GL"
+ES02,,Optical endstop switch,155,$2.40,3,$7.20,,RobotDigg,Delta motor assembly,http://robotdigg.com/product/155/Optical-Endstop-w/-Lead-Wires-for-3D-Printers
+FM01,,M8 x 60mm Hobbed bolt,156,$3.60,1,$3.60,,RobotDigg,3D printer extruder,http://robotdigg.com/product/156/Hobbed-M8-Bolt-for-Wade%27s-Extruder
+EM01,,NEMA 17 stepper motor,7,$6.80,1,$6.80,RobotDigg,RobotDigg,Delta motor assembly,"http://robotdigg.com/product/7/NEMA17-Stepper-Motor-40mm-Long,-1.2A"
+EM02,,NEMA 8 hollow shaft motor,43,$23.00,1,$23.00,RobotDigg,RobotDigg,SMT nozzle rotation axis,http://robotdigg.com/product/43/Nema8-Hollow-Shaft-Stepper-Motor
+M01,,Springs,71,$0.40,2,$0.80,,RobotDigg,3D printer extruder,http://robotdigg.com/product/71/Compression-Spring-for-Heatbed-and-Extruder
+DB01,,608 bearings,12,$0.35,6,$2.10,,RobotDigg,Delta motor assembly,http://robotdigg.com/product/12/608ZZ-Ball-Bearing
+EM03,,Vacuum Pump,ROB-10398,$14.95,1,$14.95,,Sparkfun,,https://www.sparkfun.com/products/10398
+M02,,"Nitanol wire, for heated bed",,,,$0.00,,,,
+M03,,"Kapton tape, for heated bed",,,,$0.00,,,,
