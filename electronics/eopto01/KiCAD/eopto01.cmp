@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 09-07-2014 15:34:02
+
+BeginCmp
+TimeStamp = /53BD419B;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BD44FF;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BD3FED;
+Reference = OPTO1;
+ValeurCmp = TCST2103;
+IdModule  = Lerche_TCST2103;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BD4106;
+Reference = Q1;
+ValeurCmp = BC849;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BD4026;
+Reference = R1;
+ValeurCmp = 120;
+IdModule  = Lerche_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BD4033;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = Lerche_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BD41A8;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = Lerche_R0603;
+EndCmp
+
+EndListe

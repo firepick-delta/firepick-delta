@@ -1,0 +1,254 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:lerchetech
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "FirePick - Opto endstop board"
+Date "9 jul 2014"
+Rev "A"
+Comp "FirePick"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TCST2103 OPTO1
+U 1 1 53BD3FED
+P 5550 3800
+F 0 "OPTO1" H 5550 4200 60  0000 C CNN
+F 1 "TCST2103" H 5550 4300 60  0000 C CNN
+F 2 "" H 5525 3800 60  0000 C CNN
+F 3 "" H 5525 3800 60  0000 C CNN
+	1    5550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 53BD4026
+P 5200 3200
+F 0 "R1" V 5280 3200 40  0000 C CNN
+F 1 "120" V 5207 3201 40  0000 C CNN
+F 2 "~" V 5130 3200 30  0000 C CNN
+F 3 "~" H 5200 3200 30  0000 C CNN
+	1    5200 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R2
+U 1 1 53BD4033
+P 5900 3200
+F 0 "R2" V 5980 3200 40  0000 C CNN
+F 1 "10k" V 5907 3201 40  0000 C CNN
+F 2 "~" V 5830 3200 30  0000 C CNN
+F 3 "~" H 5900 3200 30  0000 C CNN
+	1    5900 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 53BD4045
+P 5200 4150
+F 0 "#PWR01" H 5200 4150 30  0001 C CNN
+F 1 "GND" H 5200 4080 30  0001 C CNN
+F 2 "" H 5200 4150 60  0000 C CNN
+F 3 "" H 5200 4150 60  0000 C CNN
+	1    5200 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 53BD4054
+P 5900 4150
+F 0 "#PWR02" H 5900 4150 30  0001 C CNN
+F 1 "GND" H 5900 4080 30  0001 C CNN
+F 2 "" H 5900 4150 60  0000 C CNN
+F 3 "" H 5900 4150 60  0000 C CNN
+	1    5900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR03
+U 1 1 53BD4063
+P 5200 2850
+F 0 "#PWR03" H 5200 2940 20  0001 C CNN
+F 1 "+5V" H 5200 2940 30  0000 C CNN
+F 2 "" H 5200 2850 60  0000 C CNN
+F 3 "" H 5200 2850 60  0000 C CNN
+	1    5200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR04
+U 1 1 53BD4070
+P 5900 2850
+F 0 "#PWR04" H 5900 2940 20  0001 C CNN
+F 1 "+5V" H 5900 2940 30  0000 C CNN
+F 2 "" H 5900 2850 60  0000 C CNN
+F 3 "" H 5900 2850 60  0000 C CNN
+	1    5900 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2850 5900 2950
+Wire Wire Line
+	5200 2850 5200 2950
+Wire Wire Line
+	5200 3450 5200 3550
+Wire Wire Line
+	5900 3450 5900 3550
+Wire Wire Line
+	5200 4050 5200 4150
+Wire Wire Line
+	5900 4050 5900 4150
+$Comp
+L BC849 Q1
+U 1 1 53BD4106
+P 7350 3950
+F 0 "Q1" H 7350 3801 40  0000 R CNN
+F 1 "BC849" H 7350 4100 40  0000 R CNN
+F 2 "SOT-23" H 7250 4052 29  0000 C CNN
+F 3 "~" H 7350 3950 60  0000 C CNN
+	1    7350 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3550 6100 3550
+$Comp
+L GND #PWR05
+U 1 1 53BD4129
+P 7450 4300
+F 0 "#PWR05" H 7450 4300 30  0001 C CNN
+F 1 "GND" H 7450 4230 30  0001 C CNN
+F 2 "" H 7450 4300 60  0000 C CNN
+F 3 "" H 7450 4300 60  0000 C CNN
+	1    7450 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 4300 7450 4150
+$Comp
+L LED D1
+U 1 1 53BD419B
+P 7450 3450
+F 0 "D1" H 7450 3550 50  0000 C CNN
+F 1 "LED" H 7450 3350 50  0000 C CNN
+F 2 "~" H 7450 3450 60  0000 C CNN
+F 3 "~" H 7450 3450 60  0000 C CNN
+	1    7450 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 53BD41A8
+P 7450 2900
+F 0 "R3" V 7530 2900 40  0000 C CNN
+F 1 "1k" V 7457 2901 40  0000 C CNN
+F 2 "~" V 7380 2900 30  0000 C CNN
+F 3 "~" H 7450 2900 30  0000 C CNN
+	1    7450 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR06
+U 1 1 53BD41AE
+P 7450 2550
+F 0 "#PWR06" H 7450 2640 20  0001 C CNN
+F 1 "+5V" H 7450 2640 30  0000 C CNN
+F 2 "" H 7450 2550 60  0000 C CNN
+F 3 "" H 7450 2550 60  0000 C CNN
+	1    7450 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2550 7450 2650
+Wire Wire Line
+	7450 3150 7450 3250
+Wire Wire Line
+	7450 3650 7450 3750
+Text GLabel 6100 3550 2    39   Output ~ 0
+OPTO_OUT
+Wire Wire Line
+	7150 3950 7050 3950
+Text GLabel 7050 3950 0    39   Input ~ 0
+OPTO_OUT
+$Comp
+L CONN_3 K1
+U 1 1 53BD44FF
+P 3750 3800
+F 0 "K1" V 3700 3800 50  0000 C CNN
+F 1 "CONN_3" V 3800 3800 40  0000 C CNN
+F 2 "" H 3750 3800 60  0000 C CNN
+F 3 "" H 3750 3800 60  0000 C CNN
+	1    3750 3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR07
+U 1 1 53BD450C
+P 4200 3600
+F 0 "#PWR07" H 4200 3690 20  0001 C CNN
+F 1 "+5V" H 4200 3690 30  0000 C CNN
+F 2 "" H 4200 3600 60  0000 C CNN
+F 3 "" H 4200 3600 60  0000 C CNN
+	1    4200 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3700 4200 3700
+Wire Wire Line
+	4200 3700 4200 3600
+$Comp
+L GND #PWR08
+U 1 1 53BD4617
+P 4200 4000
+F 0 "#PWR08" H 4200 4000 30  0001 C CNN
+F 1 "GND" H 4200 3930 30  0001 C CNN
+F 2 "" H 4200 4000 60  0000 C CNN
+F 3 "" H 4200 4000 60  0000 C CNN
+	1    4200 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3900 4200 3900
+Wire Wire Line
+	4200 3900 4200 4000
+Text GLabel 4200 3800 2    39   Input ~ 0
+OPTO_OUT
+Wire Wire Line
+	4100 3800 4200 3800
+Text Notes 4050 4750 0    59   ~ 0
+Sainsmart module has LED connected directly to opto-transistor output. \nThe TCST2103 module is not able to supply the current for the red LED, \nas the maximum current is 4mA @ 20mA forward current on the infrared LED. \nThe transistor is driving the LED, so when the light is interrupted, the LED lights up. 
+$EndSCHEMATC
