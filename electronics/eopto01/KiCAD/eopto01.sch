@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:lerchetech
+LIBS:eopto01-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "FirePick - Opto endstop board"
-Date "9 jul 2014"
+Date "12 jul 2014"
 Rev "A"
 Comp "FirePick"
 Comment1 ""
@@ -251,4 +252,31 @@ Wire Wire Line
 	4100 3800 4200 3800
 Text Notes 4050 4750 0    59   ~ 0
 Sainsmart module has LED connected directly to opto-transistor output. \nThe TCST2103 module is not able to supply the current for the red LED, \nas the maximum current is 4mA @ 20mA forward current on the infrared LED. \nThe transistor is driving the LED, so when the light is interrupted, the LED lights up. 
+$Comp
+L CONN_3 K2
+U 1 1 53C19586
+P 2450 3800
+F 0 "K2" V 2400 3800 50  0000 C CNN
+F 1 "CONN_3" V 2500 3800 40  0000 C CNN
+F 2 "" H 2450 3800 60  0000 C CNN
+F 3 "" H 2450 3800 60  0000 C CNN
+	1    2450 3800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3600 2800 3600
+Wire Wire Line
+	4200 4000 2800 4000
+Wire Wire Line
+	2800 3600 2800 3700
+Wire Wire Line
+	2800 4000 2800 3900
+Wire Wire Line
+	2800 3800 2900 3800
+Text GLabel 2900 3800 2    39   Input ~ 0
+OPTO_OUT
+Text Notes 2400 3550 0    60   ~ 0
+JST
+Text Notes 3400 3450 0    60   ~ 0
+0.1 inch pinheader
 $EndSCHEMATC
