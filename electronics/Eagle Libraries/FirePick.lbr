@@ -845,6 +845,29 @@ Digikey P/N MSH26ECT-ND</description>
 <text x="-5.2" y="5" size="1.27" layer="21">&gt;Name</text>
 <text x="-5.2" y="6.9" size="1.27" layer="21">&gt;Value</text>
 </package>
+<package name="STEPSTICK">
+<pad name="!ENABLE!" x="-6.35" y="8.89" drill="0.8" rot="R270"/>
+<pad name="MS1" x="-6.35" y="6.35" drill="0.8" rot="R270"/>
+<pad name="MS2" x="-6.35" y="3.81" drill="0.8" rot="R270"/>
+<pad name="MS3" x="-6.35" y="1.27" drill="0.8" rot="R270"/>
+<pad name="!RESET!" x="-6.35" y="-1.27" drill="0.8" rot="R270"/>
+<pad name="!SLEEP!" x="-6.35" y="-3.81" drill="0.8" rot="R270"/>
+<pad name="STEP" x="-6.35" y="-6.35" drill="0.8" rot="R270"/>
+<pad name="DIR" x="-6.35" y="-8.89" drill="0.8" rot="R270"/>
+<pad name="GND@2" x="6.35" y="-8.89" drill="0.8" rot="R90"/>
+<pad name="VDD" x="6.35" y="-6.35" drill="0.8" rot="R90"/>
+<pad name="1B" x="6.35" y="-3.81" drill="0.8" rot="R90"/>
+<pad name="1A" x="6.35" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="2A" x="6.35" y="1.27" drill="0.8" rot="R90"/>
+<pad name="2B" x="6.35" y="3.81" drill="0.8" rot="R90"/>
+<pad name="GND" x="6.35" y="6.35" drill="0.8" rot="R90"/>
+<pad name="VMOT" x="6.35" y="8.89" drill="0.8" rot="R90"/>
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.127" layer="21"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.127" layer="21"/>
+<text x="-7.62" y="11.43" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN-26PIN-2ROW">
@@ -1172,6 +1195,29 @@ Digikey P/N MSH26ECT-ND</description>
 <wire x1="10.16" y1="6.35" x2="-10.16" y2="6.35" width="0.254" layer="94"/>
 <text x="-8.89" y="7.62" size="1.778" layer="94">&gt;Value</text>
 <text x="-8.89" y="-6.35" size="1.778" layer="94">&gt;Name</text>
+</symbol>
+<symbol name="STEPSTICK">
+<wire x1="-12.7" y1="13.97" x2="-12.7" y2="-11.43" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-11.43" x2="12.7" y2="-11.43" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-11.43" x2="12.7" y2="13.97" width="0.254" layer="94"/>
+<wire x1="12.7" y1="13.97" x2="-12.7" y2="13.97" width="0.254" layer="94"/>
+<text x="-12.7" y="15.24" size="1.778" layer="95">&gt;Name</text>
+<pin name="!ENABLE!" x="-17.78" y="10.16" length="middle"/>
+<pin name="MS1" x="-17.78" y="7.62" length="middle"/>
+<pin name="MS2" x="-17.78" y="5.08" length="middle"/>
+<pin name="MS3" x="-17.78" y="2.54" length="middle"/>
+<pin name="!RESET!" x="-17.78" y="0" length="middle"/>
+<pin name="!SLEEP!" x="-17.78" y="-2.54" length="middle"/>
+<pin name="STEP" x="-17.78" y="-5.08" length="middle"/>
+<pin name="DIR" x="-17.78" y="-7.62" length="middle"/>
+<pin name="VMOT" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="GND@1" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="2B" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="2A" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="1A" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="1B" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="VDD" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND@2" x="17.78" y="-7.62" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1524,6 +1570,36 @@ Digikey P/N MSH26ECT-ND</description>
 <connect gate="G$1" pin="TAB(GND)" pad="6"/>
 <connect gate="G$1" pin="VIN" pad="1"/>
 <connect gate="G$1" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STEPSTICK" prefix="U">
+<gates>
+<gate name="G$1" symbol="STEPSTICK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="STEPSTICK">
+<connects>
+<connect gate="G$1" pin="!ENABLE!" pad="!ENABLE!"/>
+<connect gate="G$1" pin="!RESET!" pad="!RESET!"/>
+<connect gate="G$1" pin="!SLEEP!" pad="!SLEEP!"/>
+<connect gate="G$1" pin="1A" pad="1A"/>
+<connect gate="G$1" pin="1B" pad="1B"/>
+<connect gate="G$1" pin="2A" pad="2A"/>
+<connect gate="G$1" pin="2B" pad="2B"/>
+<connect gate="G$1" pin="DIR" pad="DIR"/>
+<connect gate="G$1" pin="GND@1" pad="GND"/>
+<connect gate="G$1" pin="GND@2" pad="GND@2"/>
+<connect gate="G$1" pin="MS1" pad="MS1"/>
+<connect gate="G$1" pin="MS2" pad="MS2"/>
+<connect gate="G$1" pin="MS3" pad="MS3"/>
+<connect gate="G$1" pin="STEP" pad="STEP"/>
+<connect gate="G$1" pin="VDD" pad="VDD"/>
+<connect gate="G$1" pin="VMOT" pad="VMOT"/>
 </connects>
 <technologies>
 <technology name=""/>
