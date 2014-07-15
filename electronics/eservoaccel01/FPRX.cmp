@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 07-07-2014 03:27:54
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 15-07-2014 16:09:47
 
 BeginCmp
 TimeStamp = /539CCC07;
@@ -60,7 +60,7 @@ BeginCmp
 TimeStamp = /53B7C50D;
 Reference = CONN1;
 ValeurCmp = USB_MINI;
-IdModule  = Lerche_Molex_47610-0001_Micro-USB;
+IdModule  = Lerche_Sparkfun_MicroUSB;
 EndCmp
 
 BeginCmp
