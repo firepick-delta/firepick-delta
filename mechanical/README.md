@@ -6,7 +6,9 @@ This directory contains the mechanical files for  [FirePick Delta](http://delta.
 
 #### Licensing
 
-These files are licensed under *Creative Commons Attribution-ShareAlike (CC BY-SA)*.  Commercial use is OK, but you are required under the license conditions to share your changes with the internet, and also credit the FirePick Delta team.
+![CC-BY-SA](http://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/CC-BY-SA_icon.svg/320px-CC-BY-SA_icon.svg.png)
+
+These files are licensed under [*Creative Commons Attribution-ShareAlike (CC BY-SA)*](https://creativecommons.org/licenses/by-sa/4.0/legalcode).  Commercial use is OK, but you are required under the license conditions to share your changes with the internet, and also credit the FirePick Delta team.
 
 
 This license lets others remix, tweak, and build upon your work even for commercial purposes, as long as they credit you and license their new creations under the identical terms. This license is often compared to “copyleft” free and open source software licenses. All new works based on yours will carry the same license, so any derivatives will also allow commercial use. This is the license used by Wikipedia, and is recommended for materials that would benefit from incorporating content from Wikipedia and similarly licensed projects. 
