@@ -5515,23 +5515,22 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <text x="-5.2" y="5" size="1.27" layer="21">&gt;Name</text>
 <text x="-5.2" y="6.9" size="1.27" layer="21">&gt;Value</text>
 </package>
-<package name="CONN-JST_PH-2.0MM-3PIN-SMT-RA">
-<wire x1="-4.99" y1="0.47" x2="-4.99" y2="-3.03" width="0.2032" layer="21"/>
-<wire x1="-4.99" y1="-3.03" x2="-4.19" y2="-3.03" width="0.2032" layer="21"/>
-<wire x1="-4.19" y1="-3.03" x2="-4.19" y2="-0.53" width="0.2032" layer="21"/>
-<wire x1="-4.19" y1="-0.53" x2="-2.99" y2="-0.53" width="0.2032" layer="21"/>
-<wire x1="3.01" y1="-0.53" x2="4.21" y2="-0.53" width="0.2032" layer="21"/>
-<wire x1="4.21" y1="-0.53" x2="4.21" y2="-3.03" width="0.2032" layer="21"/>
-<wire x1="4.21" y1="-3.03" x2="5.01" y2="-3.03" width="0.2032" layer="21"/>
-<wire x1="5.01" y1="-3.03" x2="5.01" y2="0.47" width="0.2032" layer="21"/>
-<wire x1="3.01" y1="4.47" x2="-2.99" y2="4.47" width="0.2032" layer="21"/>
-<smd name="1" x="2.01" y="-2.23" dx="1" dy="4.6" layer="1"/>
-<smd name="3" x="-1.99" y="-2.23" dx="1" dy="4.6" layer="1"/>
-<smd name="NC1" x="-4.39" y="2.97" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="NC2" x="4.41" y="2.97" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="2" x="0.01" y="-2.23" dx="1" dy="4.6" layer="1"/>
-<text x="-2.26" y="2.74" size="0.4064" layer="25">&gt;Name</text>
-<text x="-2.26" y="1.47" size="0.4064" layer="27">&gt;Value</text>
+<package name="CONN-JST_PH-2.0MM-2PIN-SMT-RA">
+<wire x1="-4" y1="0.27" x2="-4" y2="-3.23" width="0.2032" layer="21"/>
+<wire x1="-4" y1="-3.23" x2="-3.2" y2="-3.23" width="0.2032" layer="21"/>
+<wire x1="-3.2" y1="-3.23" x2="-3.2" y2="-0.73" width="0.2032" layer="21"/>
+<wire x1="-3.2" y1="-0.73" x2="-2" y2="-0.73" width="0.2032" layer="21"/>
+<wire x1="2" y1="-0.73" x2="3.2" y2="-0.73" width="0.2032" layer="21"/>
+<wire x1="3.2" y1="-0.73" x2="3.2" y2="-3.23" width="0.2032" layer="21"/>
+<wire x1="3.2" y1="-3.23" x2="4" y2="-3.23" width="0.2032" layer="21"/>
+<wire x1="4" y1="-3.23" x2="4" y2="0.27" width="0.2032" layer="21"/>
+<wire x1="2" y1="4.27" x2="-2" y2="4.27" width="0.2032" layer="21"/>
+<smd name="1" x="1" y="-2.43" dx="1" dy="4.6" layer="1"/>
+<smd name="2" x="-1" y="-2.43" dx="1" dy="4.6" layer="1"/>
+<smd name="NC1" x="-3.4" y="2.77" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="NC2" x="3.4" y="2.77" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;Name</text>
+<text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;Value</text>
 </package>
 </packages>
 <symbols>
@@ -5691,19 +5690,17 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <text x="-8.89" y="7.62" size="1.778" layer="94">&gt;Value</text>
 <text x="-8.89" y="-6.35" size="1.778" layer="94">&gt;Name</text>
 </symbol>
-<symbol name="CONN-3PIN">
-<wire x1="-1.27" y1="-5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-3.81" y1="2.54" x2="-2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="-5.08" x2="-1.27" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="5.08" x2="-1.27" y2="5.08" width="0.4064" layer="94"/>
-<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-6.35" y="5.842" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="2.54" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="2.54" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<wire x1="-3.81" y1="-2.54" x2="-2.54" y2="-2.54" width="0.6096" layer="94"/>
-<pin name="3" x="2.54" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<symbol name="CONN-2PIN">
+<wire x1="1.27" y1="-2.54" x2="-3.81" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="0" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<text x="-3.81" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-3.81" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="5.08" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5835,16 +5832,15 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN-RECT-3PIN" prefix="J">
+<deviceset name="CONN-RECT-2PIN" prefix="J">
 <gates>
-<gate name="G$1" symbol="CONN-3PIN" x="0" y="0"/>
+<gate name="G$1" symbol="CONN-2PIN" x="-2.54" y="-2.54"/>
 </gates>
 <devices>
-<device name="JST_PH_2MM" package="CONN-JST_PH-2.0MM-3PIN-SMT-RA">
+<device name="" package="CONN-JST_PH-2.0MM-2PIN-SMT-RA">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15216,9 +15212,9 @@ W = angled&lt;p&gt;
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
 <part name="C4" library="rcl" deviceset="CPOL-US" device="D" value="470uF"/>
 <part name="GND17" library="SparkFun" deviceset="GND" device=""/>
-<part name="J5" library="FirePick" deviceset="CONN-RECT-3PIN" device="JST_PH_2MM"/>
 <part name="U$1" library="12v" deviceset="12V" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
+<part name="J6" library="FirePick" deviceset="CONN-RECT-2PIN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15403,11 +15399,11 @@ https://learn.adafruit.com/drive-a-16x2-lcd-directly-with-a-raspberry-pi/wiring<
 <instance part="GND16" gate="1" x="293.37" y="185.42"/>
 <instance part="C4" gate="G$1" x="314.96" y="210.82"/>
 <instance part="GND17" gate="1" x="314.96" y="185.42"/>
-<instance part="J5" gate="G$1" x="33.02" y="71.12" smashed="yes">
-<attribute name="NAME" x="29.21" y="76.962" size="1.778" layer="95"/>
-</instance>
 <instance part="U$1" gate="G$1" x="48.26" y="82.55"/>
 <instance part="GND18" gate="1" x="48.26" y="60.96"/>
+<instance part="J6" gate="G$1" x="30.48" y="71.12" smashed="yes">
+<attribute name="NAME" x="26.67" y="76.962" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15626,10 +15622,10 @@ https://learn.adafruit.com/drive-a-16x2-lcd-directly-with-a-raspberry-pi/wiring<
 <wire x1="314.96" y1="205.74" x2="314.96" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="3"/>
-<wire x1="35.56" y1="68.58" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="68.58" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="71.12" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="71.12" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
+<pinref part="J6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -15937,11 +15933,6 @@ https://learn.adafruit.com/drive-a-16x2-lcd-directly-with-a-raspberry-pi/wiring<
 <pinref part="K1" gate="G$1" pin="26"/>
 <wire x1="66.04" y1="137.16" x2="83.82" y2="137.16" width="0.1524" layer="91"/>
 <label x="72.39" y="137.16" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J5" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="71.12" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
-<label x="58.42" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO12" class="0">
@@ -16280,10 +16271,10 @@ https://learn.adafruit.com/drive-a-16x2-lcd-directly-with-a-raspberry-pi/wiring<
 <wire x1="256.54" y1="226.06" x2="256.54" y2="237.49" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="73.66" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="73.66" x2="48.26" y2="82.55" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="12V"/>
+<pinref part="J6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$7" class="0">
