@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "HDMI to FPC for RPi Cam"
-Date "16 jun 2014"
+Date "27 aug 2014"
 Rev "A"
 Comp "Firepick"
 Comment1 ""
@@ -45,17 +45,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MOLEX_46765-1302 J1
-U 1 1 539F1EB1
-P 4800 3350
-F 0 "J1" H 4800 4500 60  0000 C CNN
-F 1 "MOLEX_47151-1101" H 4800 4600 60  0000 C CNN
-F 2 "~" H 4450 4000 60  0000 C CNN
-F 3 "~" H 4450 4000 60  0000 C CNN
-	1    4800 3350
-	-1   0    0    -1  
-$EndComp
 $Comp
 L C C1
 U 1 1 539F1ED5
@@ -92,12 +81,12 @@ $EndComp
 $Comp
 L GND #PWR01
 U 1 1 539F1F4C
-P 5400 4400
-F 0 "#PWR01" H 5400 4400 30  0001 C CNN
-F 1 "GND" H 5400 4330 30  0001 C CNN
-F 2 "" H 5400 4400 60  0000 C CNN
-F 3 "" H 5400 4400 60  0000 C CNN
-	1    5400 4400
+P 5400 4750
+F 0 "#PWR01" H 5400 4750 30  0001 C CNN
+F 1 "GND" H 5400 4680 30  0001 C CNN
+F 2 "" H 5400 4750 60  0000 C CNN
+F 3 "" H 5400 4750 60  0000 C CNN
+	1    5400 4750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -111,10 +100,45 @@ F 3 "" H 7250 4100 60  0000 C CNN
 	1    7250 4100
 	1    0    0    -1  
 $EndComp
+$Comp
+L GND #PWR03
+U 1 1 539F213C
+P 5650 4750
+F 0 "#PWR03" H 5650 4750 30  0001 C CNN
+F 1 "GND" H 5650 4680 30  0001 C CNN
+F 2 "" H 5650 4750 60  0000 C CNN
+F 3 "" H 5650 4750 60  0000 C CNN
+	1    5650 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 539F2162
+P 7100 4750
+F 0 "#PWR04" H 7100 4750 30  0001 C CNN
+F 1 "GND" H 7100 4680 30  0001 C CNN
+F 2 "" H 7100 4750 60  0000 C CNN
+F 3 "" H 7100 4750 60  0000 C CNN
+	1    7100 4750
+	1    0    0    -1  
+$EndComp
+Text Notes 5900 2050 0    59   ~ 0
+HDMI to FPC connector \nfor RPi CAM
+$Comp
+L HDMI_TYPE_A J1
+U 1 1 53FE06C7
+P 4800 3550
+F 0 "J1" H 4800 4700 60  0000 C CNN
+F 1 "HDMI_TYPE_A" H 4800 4800 60  0000 C CNN
+F 2 "~" H 4450 4200 60  0000 C CNN
+F 3 "~" H 4450 4200 60  0000 C CNN
+	1    4800 3550
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
 	5300 2700 5400 2700
 Wire Wire Line
-	5400 2700 5400 4400
+	5400 2700 5400 4750
 Wire Wire Line
 	5300 3000 5400 3000
 Connection ~ 5400 3000
@@ -124,9 +148,6 @@ Connection ~ 5400 3300
 Wire Wire Line
 	5300 3600 5400 3600
 Connection ~ 5400 3600
-Wire Wire Line
-	5300 3900 5400 3900
-Connection ~ 5400 3900
 Wire Wire Line
 	7350 2600 7250 2600
 Wire Wire Line
@@ -140,10 +161,6 @@ Connection ~ 7250 3200
 Wire Wire Line
 	7350 3500 7250 3500
 Connection ~ 7250 3500
-Wire Wire Line
-	5300 4200 6400 4200
-Wire Wire Line
-	6400 4200 6400 4000
 Wire Wire Line
 	6400 4000 7350 4000
 Wire Wire Line
@@ -162,32 +179,7 @@ Wire Wire Line
 	7100 4300 7100 4000
 Connection ~ 7100 4000
 Wire Wire Line
-	5650 4300 5650 4200
-Connection ~ 5650 4200
-$Comp
-L GND #PWR03
-U 1 1 539F213C
-P 5650 4750
-F 0 "#PWR03" H 5650 4750 30  0001 C CNN
-F 1 "GND" H 5650 4680 30  0001 C CNN
-F 2 "" H 5650 4750 60  0000 C CNN
-F 3 "" H 5650 4750 60  0000 C CNN
-	1    5650 4750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	5650 4700 5650 4750
-$Comp
-L GND #PWR04
-U 1 1 539F2162
-P 7100 4750
-F 0 "#PWR04" H 7100 4750 30  0001 C CNN
-F 1 "GND" H 7100 4680 30  0001 C CNN
-F 2 "" H 7100 4750 60  0000 C CNN
-F 3 "" H 7100 4750 60  0000 C CNN
-	1    7100 4750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7100 4700 7100 4750
 Wire Wire Line
@@ -222,6 +214,34 @@ Wire Wire Line
 	6300 3600 6300 3500
 Wire Wire Line
 	6300 3500 5300 3500
-Text Notes 5900 2050 0    59   ~ 0
-HDMI to FPC connector \nfor RPi CAM
+Wire Wire Line
+	5300 4200 5400 4200
+Connection ~ 5400 4200
+Wire Wire Line
+	5300 4300 6400 4300
+Wire Wire Line
+	6400 4300 6400 4000
+Connection ~ 5650 4300
+Text Label 5700 4000 0    39   ~ 0
+SCL
+Text Label 5700 4100 0    39   ~ 0
+SDA
+Text Label 5700 4300 0    39   ~ 0
++3V3
+Text Label 5700 3700 0    39   ~ 0
+CLK-
+Text Label 5700 3500 0    39   ~ 0
+CLK+
+Text Label 5700 3400 0    39   ~ 0
+D0-
+Text Label 5700 3200 0    39   ~ 0
+D0+
+Text Label 5700 3100 0    39   ~ 0
+D1-
+Text Label 5700 2900 0    39   ~ 0
+D1+
+Text Label 5700 2800 0    39   ~ 0
+D2-
+Text Label 5700 2600 0    39   ~ 0
+D2+
 $EndSCHEMATC

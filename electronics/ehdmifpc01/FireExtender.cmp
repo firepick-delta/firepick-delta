@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 16-06-2014 19:18:29
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 27-08-2014 17:35:30
 
 BeginCmp
 TimeStamp = /539F1ED5;
@@ -15,9 +15,9 @@ IdModule  = c_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /539F1EB1;
+TimeStamp = /53FE06C7;
 Reference = J1;
-ValeurCmp = MOLEX_47151-1101;
+ValeurCmp = HDMI_TYPE_A;
 IdModule  = Lerche_Molex_47152-1101;
 EndCmp
 
