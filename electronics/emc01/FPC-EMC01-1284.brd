@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -5832,8 +5832,7 @@ design rules under a new name.</description>
 <wire x1="45.940921875" y1="54.059075" x2="47.099996875" y2="52.9" width="0.3" layer="1"/>
 <wire x1="47.099996875" y1="52.9" x2="47.1" y2="52.9" width="0.3" layer="1"/>
 <via x="47.1" y="52.9" extent="1-16" drill="0.3048"/>
-<wire x1="54.059075" y1="54.059075" x2="53" y2="53" width="0.3" layer="1"/>
-<via x="53" y="53" extent="1-16" drill="0.3048"/>
+<wire x1="54.059075" y1="54.059075" x2="52.6" y2="52.6" width="0.3" layer="1"/>
 <wire x1="45.940921875" y1="45.940921875" x2="47.2" y2="47.2" width="0.3" layer="1"/>
 <via x="47.2" y="47.2" extent="1-16" drill="0.3048"/>
 <wire x1="54.61585" y1="46.4977" x2="53.41355" y2="47.7" width="0.3" layer="1"/>
@@ -5860,7 +5859,6 @@ design rules under a new name.</description>
 <wire x1="47.1" y1="52.9" x2="47.6" y2="52.4" width="0.3" layer="1"/>
 <wire x1="53.41355" y1="47.7" x2="52.6" y2="48.51355" width="0.3" layer="1"/>
 <wire x1="52.6" y1="48.51355" x2="52.6" y2="52.6" width="0.3" layer="1"/>
-<wire x1="52.6" y1="52.6" x2="53" y2="53" width="0.3" layer="1"/>
 <contactref element="J11" pad="16"/>
 <polygon width="0.254" layer="1" isolate="0.4064" rank="2">
 <vertex x="25.1" y="93.3"/>
@@ -6166,12 +6164,16 @@ design rules under a new name.</description>
 <contactref element="U1" pad="12"/>
 <wire x1="51.239275" y1="43.121121875" x2="53" y2="41.360396875" width="0.3" layer="1"/>
 <wire x1="53" y1="41.360396875" x2="53" y2="37.8" width="0.3" layer="1"/>
-<wire x1="53" y1="37.8" x2="62.6" y2="28.2" width="0.3" layer="1"/>
-<wire x1="62.6" y1="28.2" x2="66.6" y2="28.2" width="0.3" layer="1"/>
-<wire x1="66.6" y1="28.2" x2="71.3" y2="23.5" width="0.3" layer="1"/>
-<wire x1="71.3" y1="23.5" x2="73.7" y2="23.5" width="0.3" layer="1"/>
+<wire x1="53" y1="37.8" x2="62.2" y2="28.6" width="0.3" layer="1"/>
 <wire x1="80.036" y1="21.41829375" x2="77.95429375" y2="23.5" width="0.3" layer="16"/>
 <wire x1="77.95429375" y1="23.5" x2="73.7" y2="23.5" width="0.3" layer="16"/>
+<wire x1="73.7" y1="23.5" x2="72.9" y2="23.5" width="0.3" layer="16"/>
+<wire x1="72.9" y1="23.5" x2="70.8" y2="21.4" width="0.3" layer="16"/>
+<wire x1="70.8" y1="21.4" x2="63.5" y2="21.4" width="0.3" layer="16"/>
+<wire x1="63.5" y1="21.4" x2="62.6" y2="22.3" width="0.3" layer="16"/>
+<wire x1="62.6" y1="22.3" x2="62.6" y2="28.2" width="0.3" layer="16"/>
+<via x="62.6" y="28.2" extent="1-16" drill="0.5"/>
+<wire x1="62.6" y1="28.2" x2="62.2" y2="28.6" width="0.3" layer="1"/>
 </signal>
 <signal name="SCLK">
 <contactref element="J16" pad="4"/>
@@ -6668,7 +6670,6 @@ design rules under a new name.</description>
 <wire x1="71.3" y1="58.7" x2="76" y2="63.4" width="0.3" layer="16"/>
 </signal>
 <signal name="TOOL1_ENABLE">
-<contactref element="J11" pad="15"/>
 <contactref element="U1" pad="41"/>
 <via x="36.7" y="63.7" extent="1-16" drill="0.3048"/>
 <wire x1="36.7" y1="63.7" x2="32.3" y2="63.7" width="0.3" layer="16"/>
@@ -6679,13 +6680,11 @@ design rules under a new name.</description>
 <wire x1="37.9" y1="63.7" x2="36.7" y2="63.7" width="0.3" layer="1"/>
 <wire x1="43.536971875" y1="54.2" x2="42.2" y2="54.2" width="0.3" layer="1"/>
 <wire x1="42.2" y1="54.2" x2="41.3" y2="55.1" width="0.3" layer="1"/>
-<wire x1="24.767965625" y1="52.259146875" x2="24.4" y2="54.1" width="0.3" layer="1"/>
 <wire x1="24.4" y1="54.1" x2="29.5" y2="62.9" width="0.3" layer="1"/>
 <wire x1="32.3" y1="63.7" x2="30.3" y2="63.7" width="0.3" layer="1"/>
 <wire x1="30.3" y1="63.7" x2="29.5" y2="62.9" width="0.3" layer="1"/>
 </signal>
 <signal name="TOOL2_ENABLE">
-<contactref element="J12" pad="15"/>
 <contactref element="U1" pad="40"/>
 <wire x1="45.384146875" y1="53.502296875" x2="44.08644375" y2="54.8" width="0.3" layer="1"/>
 <wire x1="44.08644375" y1="54.8" x2="42.6" y2="54.8" width="0.3" layer="1"/>
@@ -6696,7 +6695,6 @@ design rules under a new name.</description>
 <wire x1="36.2" y1="64.7" x2="35.9" y2="64.4" width="0.3" layer="1"/>
 <wire x1="35.9" y1="64.4" x2="35" y2="64.4" width="0.3" layer="1"/>
 <wire x1="35" y1="64.4" x2="34.4" y2="65" width="0.3" layer="1"/>
-<wire x1="34.157965625" y1="68.523146875" x2="32.7" y2="65.9" width="0.3" layer="1"/>
 <wire x1="32.7" y1="65.9" x2="32.7" y2="65.4" width="0.3" layer="1"/>
 <wire x1="32.7" y1="65.4" x2="33.1" y2="65" width="0.3" layer="1"/>
 <wire x1="33.1" y1="65" x2="34.4" y2="65" width="0.3" layer="1"/>
@@ -6719,7 +6717,6 @@ design rules under a new name.</description>
 <wire x1="35.8" y1="69.1" x2="42.2" y2="69.1" width="0.3" layer="1"/>
 </signal>
 <signal name="TOOL3_ENABLE">
-<contactref element="J13" pad="15"/>
 <contactref element="U1" pad="22"/>
 <wire x1="56.878875" y1="48.760721875" x2="57.239596875" y2="48.4" width="0.3" layer="1"/>
 <wire x1="57.239596875" y1="48.4" x2="57.6" y2="48.4" width="0.3" layer="1"/>
@@ -6727,7 +6724,6 @@ design rules under a new name.</description>
 <wire x1="60" y1="50.8" x2="60" y2="51.7" width="0.3" layer="1"/>
 <wire x1="60" y1="51.7" x2="66.1" y2="57.8" width="0.3" layer="1"/>
 <via x="67.6" y="57.8" extent="1-16" drill="0.3048"/>
-<wire x1="64.57203125" y1="70.72285" x2="64" y2="68.8" width="0.3" layer="1"/>
 <wire x1="64" y1="68.8" x2="68.7" y2="60.5" width="0.3" layer="1"/>
 <via x="68.7" y="60.5" extent="1-16" drill="0.3048"/>
 <wire x1="67.6" y1="57.8" x2="66.1" y2="57.8" width="0.3" layer="1"/>
@@ -6771,7 +6767,6 @@ design rules under a new name.</description>
 <wire x1="68.3" y1="61.2" x2="70.3" y2="61.2" width="0.3" layer="16"/>
 </signal>
 <signal name="TOOL4_ENABLE">
-<contactref element="J14" pad="15"/>
 <contactref element="U1" pad="21"/>
 <wire x1="56.3221" y1="48.203946875" x2="57.026046875" y2="47.5" width="0.3" layer="1"/>
 <wire x1="57.026046875" y1="47.5" x2="57.6" y2="47.5" width="0.3" layer="1"/>
@@ -6779,7 +6774,6 @@ design rules under a new name.</description>
 <wire x1="60.5" y1="50.4" x2="60.5" y2="51.3" width="0.3" layer="1"/>
 <wire x1="60.5" y1="51.3" x2="66.3" y2="57.1" width="0.3" layer="1"/>
 <wire x1="66.3" y1="57.1" x2="72.4" y2="57.1" width="0.3" layer="1"/>
-<wire x1="73.96203125" y1="54.45885" x2="72.4" y2="57.1" width="0.3" layer="1"/>
 </signal>
 <signal name="Z_STEP">
 <contactref element="STEPSTICK3" pad="STEP"/>
@@ -7268,6 +7262,18 @@ design rules under a new name.</description>
 <wire x1="33.239259375" y1="50.588965625" x2="34.411034375" y2="50.588965625" width="0.3" layer="16"/>
 <wire x1="34.411034375" y1="50.588965625" x2="34.7" y2="50.3" width="0.3" layer="16"/>
 <wire x1="34.7" y1="50.3" x2="40.2" y2="50.3" width="0.3" layer="16"/>
+</signal>
+<signal name="TOOL1_!ENABLE">
+<contactref element="J11" pad="15"/>
+</signal>
+<signal name="TOOL2_!ENABLE">
+<contactref element="J12" pad="15"/>
+</signal>
+<signal name="TOOL3_!ENABLE">
+<contactref element="J13" pad="15"/>
+</signal>
+<signal name="TOOL4_!ENABLE">
+<contactref element="J14" pad="15"/>
 </signal>
 </signals>
 <errors>

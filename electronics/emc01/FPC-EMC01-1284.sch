@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -20815,22 +20815,12 @@ HEADER</text>
 </net>
 <net name="TOOL1_ENABLE" class="0">
 <segment>
-<pinref part="J11" gate="G$1" pin="15"/>
-<wire x1="309.88" y1="190.5" x2="337.82" y2="190.5" width="0.1524" layer="91"/>
-<label x="312.42" y="190.5" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="PB1(PCINT9/CLKO/T1)"/>
 <wire x1="50.8" y1="77.47" x2="73.66" y2="77.47" width="0.1524" layer="91"/>
 <label x="53.34" y="77.47" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TOOL2_ENABLE" class="0">
-<segment>
-<pinref part="J12" gate="G$1" pin="15"/>
-<wire x1="337.82" y1="149.86" x2="309.88" y2="149.86" width="0.1524" layer="91"/>
-<label x="312.42" y="149.86" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="PB0(PCINT8/XCK0/T0)"/>
 <wire x1="73.66" y1="80.01" x2="50.8" y2="80.01" width="0.1524" layer="91"/>
@@ -20850,11 +20840,6 @@ HEADER</text>
 </segment>
 </net>
 <net name="TOOL3_ENABLE" class="0">
-<segment>
-<pinref part="J13" gate="G$1" pin="15"/>
-<wire x1="337.82" y1="109.22" x2="309.88" y2="109.22" width="0.1524" layer="91"/>
-<label x="312.42" y="109.22" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="(TMS/PCINT19)PC3"/>
 <wire x1="167.64" y1="92.71" x2="139.7" y2="92.71" width="0.1524" layer="91"/>
@@ -20886,11 +20871,6 @@ HEADER</text>
 </segment>
 </net>
 <net name="TOOL4_ENABLE" class="0">
-<segment>
-<pinref part="J14" gate="G$1" pin="15"/>
-<wire x1="337.82" y1="68.58" x2="312.42" y2="68.58" width="0.1524" layer="91"/>
-<label x="314.96" y="68.58" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="(TCK/PCINT18)PC2"/>
 <wire x1="139.7" y1="95.25" x2="167.64" y2="95.25" width="0.1524" layer="91"/>
@@ -21000,7 +20980,7 @@ HEADER</text>
 </segment>
 <segment>
 <wire x1="73.66" y1="113.03" x2="60.96" y2="113.03" width="0.1524" layer="91"/>
-<label x="58.42" y="113.03" size="1.778" layer="95"/>
+<label x="63.5" y="113.03" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="!RESET"/>
 </segment>
 </net>
@@ -21356,6 +21336,34 @@ HEADER</text>
 <pinref part="U1" gate="G$1" pin="PB3(PCINT11/OC0A/AIN1)"/>
 <wire x1="73.66" y1="72.39" x2="50.8" y2="72.39" width="0.1524" layer="91"/>
 <label x="53.34" y="72.39" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TOOL1_!ENABLE" class="0">
+<segment>
+<pinref part="J11" gate="G$1" pin="15"/>
+<wire x1="309.88" y1="190.5" x2="337.82" y2="190.5" width="0.1524" layer="91"/>
+<label x="312.42" y="190.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TOOL2_!ENABLE" class="0">
+<segment>
+<pinref part="J12" gate="G$1" pin="15"/>
+<wire x1="337.82" y1="149.86" x2="309.88" y2="149.86" width="0.1524" layer="91"/>
+<label x="312.42" y="149.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TOOL3_!ENABLE" class="0">
+<segment>
+<pinref part="J13" gate="G$1" pin="15"/>
+<wire x1="337.82" y1="109.22" x2="309.88" y2="109.22" width="0.1524" layer="91"/>
+<label x="312.42" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TOOL4_!ENABLE" class="0">
+<segment>
+<pinref part="J14" gate="G$1" pin="15"/>
+<wire x1="337.82" y1="68.58" x2="312.42" y2="68.58" width="0.1524" layer="91"/>
+<label x="314.96" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
