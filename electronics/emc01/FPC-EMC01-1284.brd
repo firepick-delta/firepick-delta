@@ -28,15 +28,15 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -5659,23 +5659,23 @@ design rules under a new name.</description>
 <element name="J6" library="!con-lstb" package="MA04-1" value="" x="88.5" y="36.079" smashed="yes" rot="R60">
 <attribute name="NAME" x="78.930190625" y="34.705090625" size="2" layer="25" ratio="10" rot="R60"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="0805" value="100N" x="43.7" y="56.7" smashed="yes" rot="R225">
+<element name="C1" library="SparkFun-Capacitors" package="0805" value="0.1 uF" x="43.7" y="56.7" smashed="yes" rot="R225">
 <attribute name="NAME" x="42.52253125" y="58.155096875" size="1" layer="25"/>
 <attribute name="VALUE" x="43.430590625" y="58.406246875" size="0.4064" layer="27" rot="R225"/>
 </element>
-<element name="C5" library="SparkFun-Capacitors" package="0805" value="100N" x="58.3" y="56.8" smashed="yes" rot="R315">
+<element name="C5" library="SparkFun-Capacitors" package="0805" value="0.1 uF" x="58.3" y="56.8" smashed="yes" rot="R315">
 <attribute name="NAME" x="59.155096875" y="54.777465625" size="1" layer="25"/>
 <attribute name="VALUE" x="56.593753125" y="56.53059375" size="0.4064" layer="27" rot="R315"/>
 </element>
-<element name="C7" library="SparkFun-Capacitors" package="0805" value="100N" x="57.3" y="43.7" smashed="yes" rot="R135">
+<element name="C7" library="SparkFun-Capacitors" package="0805" value="0.1 uF" x="57.3" y="43.7" smashed="yes" rot="R135">
 <attribute name="NAME" x="57.255096875" y="42.57746875" size="1" layer="25" rot="R270"/>
 <attribute name="VALUE" x="59.006246875" y="43.969409375" size="0.4064" layer="27" rot="R135"/>
 </element>
-<element name="C8" library="SparkFun-Capacitors" package="0805" value="100N" x="40.8" y="44" smashed="yes" rot="R45">
+<element name="C8" library="SparkFun-Capacitors" package="0805" value="0.1 uF" x="40.8" y="44" smashed="yes" rot="R45">
 <attribute name="NAME" x="38.9449" y="45.02253125" size="1" layer="25"/>
 <attribute name="VALUE" x="41.069409375" y="42.29375" size="0.4064" layer="27" rot="R45"/>
 </element>
-<element name="C9" library="SparkFun-Capacitors" package="0805" value="0.1" x="65.3" y="25.8" smashed="yes">
+<element name="C9" library="SparkFun-Capacitors" package="0805" value="0.1uF" x="65.3" y="25.8" smashed="yes">
 <attribute name="NAME" x="66.938" y="25.3255" size="1" layer="25"/>
 <attribute name="VALUE" x="64.284" y="24.403" size="0.4064" layer="27"/>
 </element>
@@ -5687,7 +5687,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="48.9449" y="35.62253125" size="1" layer="25"/>
 <attribute name="VALUE" x="46.19375" y="37.130590625" size="0.4064" layer="27" rot="R315"/>
 </element>
-<element name="C4" library="SparkFun-Capacitors" package="0805" value="100N" x="57.1" y="55.6" smashed="yes" rot="R315">
+<element name="C4" library="SparkFun-Capacitors" package="0805" value="0.1uF" x="57.1" y="55.6" smashed="yes" rot="R315">
 <attribute name="NAME" x="57.9449" y="53.32253125" size="1" layer="25"/>
 <attribute name="VALUE" x="55.39375" y="55.330590625" size="0.4064" layer="27" rot="R315"/>
 </element>
@@ -5726,8 +5726,8 @@ design rules under a new name.</description>
 <element name="LOGO4" library="FirePick" package="LOGO-FIREPICK" value="LOGO-FIREPICK" x="6.5" y="44.2"/>
 <element name="LOGO5" library="FirePick" package="LOGO-OSHW-MEDIUM" value="LOGO-OSHWMEDIUM" x="87.9" y="47.9"/>
 <element name="LOGO6" library="FirePick" package="LOGO-CC-BY-SA" value="LOGO-CC-BY-SA" x="70.8" y="56.6" rot="R30"/>
-<element name="R12" library="SparkFun-Resistors" package="0805" value="10K" x="58.5" y="44.9" rot="R315"/>
-<element name="R13" library="SparkFun-Resistors" package="0805" value="10K" x="59.7" y="46.1" rot="R315"/>
+<element name="R12" library="SparkFun-Resistors" package="0805" value="4.7K" x="58.5" y="44.9" rot="R315"/>
+<element name="R13" library="SparkFun-Resistors" package="0805" value="4.7K" x="59.7" y="46.1" rot="R315"/>
 </elements>
 <signals>
 <signal name="GND" class="1">
@@ -6683,6 +6683,8 @@ design rules under a new name.</description>
 <wire x1="24.4" y1="54.1" x2="29.5" y2="62.9" width="0.3" layer="1"/>
 <wire x1="32.3" y1="63.7" x2="30.3" y2="63.7" width="0.3" layer="1"/>
 <wire x1="30.3" y1="63.7" x2="29.5" y2="62.9" width="0.3" layer="1"/>
+<contactref element="J11" pad="15"/>
+<wire x1="24.4" y1="54.1" x2="24.767965625" y2="52.259146875" width="0.3" layer="1"/>
 </signal>
 <signal name="TOOL2_ENABLE">
 <contactref element="U1" pad="40"/>
@@ -6698,6 +6700,8 @@ design rules under a new name.</description>
 <wire x1="32.7" y1="65.9" x2="32.7" y2="65.4" width="0.3" layer="1"/>
 <wire x1="32.7" y1="65.4" x2="33.1" y2="65" width="0.3" layer="1"/>
 <wire x1="33.1" y1="65" x2="34.4" y2="65" width="0.3" layer="1"/>
+<contactref element="J12" pad="15"/>
+<wire x1="34.157965625" y1="68.523146875" x2="32.7" y2="65.9" width="0.3" layer="1"/>
 </signal>
 <signal name="TOOL2_AIN">
 <contactref element="J12" pad="13"/>
@@ -6731,6 +6735,8 @@ design rules under a new name.</description>
 <wire x1="67.3" y1="57.8" x2="67" y2="58.1" width="0.3" layer="16"/>
 <wire x1="67" y1="58.1" x2="67" y2="58.8" width="0.3" layer="16"/>
 <wire x1="67" y1="58.8" x2="68.7" y2="60.5" width="0.3" layer="16"/>
+<contactref element="J13" pad="15"/>
+<wire x1="64.57203125" y1="70.72285" x2="64" y2="68.8" width="0.3" layer="1"/>
 </signal>
 <signal name="TOOL3_AIN">
 <contactref element="J13" pad="13"/>
@@ -6774,6 +6780,8 @@ design rules under a new name.</description>
 <wire x1="60.5" y1="50.4" x2="60.5" y2="51.3" width="0.3" layer="1"/>
 <wire x1="60.5" y1="51.3" x2="66.3" y2="57.1" width="0.3" layer="1"/>
 <wire x1="66.3" y1="57.1" x2="72.4" y2="57.1" width="0.3" layer="1"/>
+<contactref element="J14" pad="15"/>
+<wire x1="72.4" y1="57.1" x2="73.96203125" y2="54.45885" width="0.3" layer="1"/>
 </signal>
 <signal name="Z_STEP">
 <contactref element="STEPSTICK3" pad="STEP"/>
@@ -7262,18 +7270,6 @@ design rules under a new name.</description>
 <wire x1="33.239259375" y1="50.588965625" x2="34.411034375" y2="50.588965625" width="0.3" layer="16"/>
 <wire x1="34.411034375" y1="50.588965625" x2="34.7" y2="50.3" width="0.3" layer="16"/>
 <wire x1="34.7" y1="50.3" x2="40.2" y2="50.3" width="0.3" layer="16"/>
-</signal>
-<signal name="TOOL1_!ENABLE">
-<contactref element="J11" pad="15"/>
-</signal>
-<signal name="TOOL2_!ENABLE">
-<contactref element="J12" pad="15"/>
-</signal>
-<signal name="TOOL3_!ENABLE">
-<contactref element="J13" pad="15"/>
-</signal>
-<signal name="TOOL4_!ENABLE">
-<contactref element="J14" pad="15"/>
 </signal>
 </signals>
 <errors>

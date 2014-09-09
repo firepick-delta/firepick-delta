@@ -19463,16 +19463,16 @@ DIN A3, landscape with location and doc. field</description>
 <part name="J9" library="!con-lstb" deviceset="MA03-1" device=""/>
 <part name="J5" library="!con-lstb" deviceset="MA04-1" device=""/>
 <part name="J6" library="!con-lstb" deviceset="MA04-1" device=""/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100N"/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100N"/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100N"/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100N"/>
-<part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1 uF"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1 uF"/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1 uF"/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1 uF"/>
+<part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="22P"/>
 <part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="22P"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100N"/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
 <part name="C2" library="rcl" deviceset="CPOL-US" device="D" value="4.7uF"/>
 <part name="U1" library="FirePick" deviceset="IC-ATMEGA1284P-AU" device=""/>
 <part name="TP1" library="FirePick" deviceset="CONN-TESTPOINT" device="" value="PD2"/>
@@ -19492,8 +19492,8 @@ DIN A3, landscape with location and doc. field</description>
 <part name="LOGO4" library="FirePick" deviceset="LOGO-FIREPICK" device=""/>
 <part name="LOGO5" library="FirePick" deviceset="LOGO-OSHW" device="MEDIUM"/>
 <part name="LOGO6" library="FirePick" deviceset="LOGO-CC-BY-SA" device=""/>
-<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K"/>
-<part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K"/>
+<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="4.7K"/>
+<part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="4.7K"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 </parts>
@@ -20819,12 +20819,22 @@ HEADER</text>
 <wire x1="50.8" y1="77.47" x2="73.66" y2="77.47" width="0.1524" layer="91"/>
 <label x="53.34" y="77.47" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J11" gate="G$1" pin="15"/>
+<wire x1="309.88" y1="190.5" x2="337.82" y2="190.5" width="0.1524" layer="91"/>
+<label x="312.42" y="190.5" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TOOL2_ENABLE" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB0(PCINT8/XCK0/T0)"/>
 <wire x1="73.66" y1="80.01" x2="50.8" y2="80.01" width="0.1524" layer="91"/>
 <label x="53.34" y="80.01" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J12" gate="G$1" pin="15"/>
+<wire x1="337.82" y1="149.86" x2="309.88" y2="149.86" width="0.1524" layer="91"/>
+<label x="312.42" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TOOL2_AIN" class="0">
@@ -20844,6 +20854,11 @@ HEADER</text>
 <pinref part="U1" gate="G$1" pin="(TMS/PCINT19)PC3"/>
 <wire x1="167.64" y1="92.71" x2="139.7" y2="92.71" width="0.1524" layer="91"/>
 <label x="142.24" y="92.71" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J13" gate="G$1" pin="15"/>
+<wire x1="337.82" y1="109.22" x2="309.88" y2="109.22" width="0.1524" layer="91"/>
+<label x="312.42" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TOOL3_AIN" class="0">
@@ -20875,6 +20890,11 @@ HEADER</text>
 <pinref part="U1" gate="G$1" pin="(TCK/PCINT18)PC2"/>
 <wire x1="139.7" y1="95.25" x2="167.64" y2="95.25" width="0.1524" layer="91"/>
 <label x="142.24" y="95.25" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J14" gate="G$1" pin="15"/>
+<wire x1="337.82" y1="68.58" x2="312.42" y2="68.58" width="0.1524" layer="91"/>
+<label x="314.96" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="Z_STEP" class="0">
@@ -21336,34 +21356,6 @@ HEADER</text>
 <pinref part="U1" gate="G$1" pin="PB3(PCINT11/OC0A/AIN1)"/>
 <wire x1="73.66" y1="72.39" x2="50.8" y2="72.39" width="0.1524" layer="91"/>
 <label x="53.34" y="72.39" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="TOOL1_!ENABLE" class="0">
-<segment>
-<pinref part="J11" gate="G$1" pin="15"/>
-<wire x1="309.88" y1="190.5" x2="337.82" y2="190.5" width="0.1524" layer="91"/>
-<label x="312.42" y="190.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="TOOL2_!ENABLE" class="0">
-<segment>
-<pinref part="J12" gate="G$1" pin="15"/>
-<wire x1="337.82" y1="149.86" x2="309.88" y2="149.86" width="0.1524" layer="91"/>
-<label x="312.42" y="149.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="TOOL3_!ENABLE" class="0">
-<segment>
-<pinref part="J13" gate="G$1" pin="15"/>
-<wire x1="337.82" y1="109.22" x2="309.88" y2="109.22" width="0.1524" layer="91"/>
-<label x="312.42" y="109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="TOOL4_!ENABLE" class="0">
-<segment>
-<pinref part="J14" gate="G$1" pin="15"/>
-<wire x1="337.82" y1="68.58" x2="312.42" y2="68.58" width="0.1524" layer="91"/>
-<label x="314.96" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
