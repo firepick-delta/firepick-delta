@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -24017,6 +24017,7 @@ ROTARY ENCODER</text>
 <text x="154.305" y="168.275" size="5.08" layer="94">PIEZO BUZZER</text>
 <text x="159.385" y="8.89" size="5.08" layer="94">ERPIHAT01 Raspberry Pi HAT 
 for FirePick Delta</text>
+<text x="0" y="274.32" size="5.08" layer="91">TODO: ADD ESD PROTECTION TO BUTTONS AND ENCODER</text>
 </plain>
 <instances>
 <instance part="K1" gate="G$1" x="60.96" y="96.52" rot="R180"/>
