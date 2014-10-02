@@ -24273,7 +24273,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND69" library="SparkFun" deviceset="GND" device=""/>
 <part name="M1" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="FDD8580" value="FQD13N06LTM"/>
 <part name="GND70" library="SparkFun" deviceset="GND" device=""/>
-<part name="C28" library="rcl" deviceset="CPOL-EU" device="UD-6,3X7,7" value="100 uF"/>
+<part name="C28" library="rcl" deviceset="CPOL-EU" device="UD-6,3X7,7" value="100 uF 25V"/>
 <part name="GND80" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+12V" device=""/>
 <part name="P+10" library="supply1" deviceset="+12V" device=""/>
@@ -24281,22 +24281,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="C111" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.01 50V"/>
-<part name="SJ1" library="FirePick" deviceset="JUMPER" device=""/>
-<part name="SJ2" library="FirePick" deviceset="JUMPER" device=""/>
-<part name="SJ3" library="FirePick" deviceset="JUMPER" device=""/>
+<part name="MS0" library="FirePick" deviceset="JUMPER" device=""/>
+<part name="MS1" library="FirePick" deviceset="JUMPER" device=""/>
+<part name="MS2" library="FirePick" deviceset="JUMPER" device=""/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1 16V"/>
 <part name="P+13" library="supply1" deviceset="+12V" device=""/>
-<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="0.2"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="0.2"/>
+<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="0.2 1% 1/4W"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="0.2 1% 1/4W"/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun" deviceset="GND" device=""/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1"/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1"/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF 25V"/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF 25V"/>
 <part name="P+14" library="supply1" deviceset="+12V" device=""/>
 <part name="P+15" library="supply1" deviceset="+12V" device=""/>
 <part name="GND11" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun" deviceset="GND" device=""/>
-<part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.47 6.3V"/>
+<part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1 uF 10V"/>
 <part name="GND13" library="SparkFun" deviceset="GND" device=""/>
 <part name="VR1" library="adafruit" deviceset="TRIMPOT" device="TC33X" value="10K"/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
@@ -24315,10 +24315,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="4.7K"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="4.7K 1%"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10 uF"/>
 <part name="U3" library="SparkFun-PowerIC" deviceset="MIC5205" device="5V" value="MIC5205"/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uF 10V"/>
 <part name="GND14" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+12V" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
@@ -24330,6 +24330,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FID5" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID6" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="LOGO1" library="FirePick" deviceset="LOGO-OSHW" device="SMALL" value="LOGO-OSHWSMALL"/>
+<part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24354,6 +24355,10 @@ DIGIKEY: ED2746-ND</text>
 <text x="41.91" y="165.1" size="5.08" layer="94">TERMINAL BLOCK</text>
 <text x="246.38" y="68.58" size="1.778" layer="95">FAIRCHILD FQD13N06LTM
 DIGIKEY: FQD13N06LTMCT-ND</text>
+<text x="25.4" y="43.18" size="3.81" layer="94">TODO: Add LED to /ENABLE pin</text>
+<text x="299.72" y="238.76" size="2.54" layer="94">Rev. A: 
+* Remove wires from /SLEEP and /RESET to V3P3OUT.
+* Add wire from /SLEEP and /RESET to +5V net</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="73.66" y="198.12" smashed="yes" rot="R180">
@@ -24371,25 +24376,25 @@ DIGIKEY: FQD13N06LTMCT-ND</text>
 <instance part="GND69" gate="1" x="241.3" y="66.04"/>
 <instance part="M1" gate="G$1" x="241.3" y="81.28"/>
 <instance part="GND70" gate="1" x="231.14" y="66.04"/>
-<instance part="C28" gate="G$1" x="175.26" y="152.4"/>
-<instance part="GND80" gate="1" x="175.26" y="137.16"/>
+<instance part="C28" gate="G$1" x="160.02" y="152.4"/>
+<instance part="GND80" gate="1" x="160.02" y="137.16"/>
 <instance part="P+8" gate="1" x="78.74" y="157.48" smashed="yes">
 <attribute name="VALUE" x="81.28" y="162.56" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+10" gate="1" x="175.26" y="167.64" smashed="yes">
-<attribute name="VALUE" x="177.8" y="172.72" size="1.778" layer="96" rot="R180"/>
+<instance part="P+10" gate="1" x="160.02" y="167.64" smashed="yes">
+<attribute name="VALUE" x="162.56" y="172.72" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U1" gate="G$1" x="259.08" y="187.96"/>
 <instance part="GND4" gate="1" x="236.22" y="137.16"/>
 <instance part="GND7" gate="1" x="246.38" y="137.16"/>
 <instance part="C111" gate="G$1" x="312.42" y="205.74"/>
-<instance part="SJ1" gate="G$1" x="228.6" y="182.88" smashed="yes">
+<instance part="MS0" gate="G$1" x="228.6" y="182.88" smashed="yes">
 <attribute name="NAME" x="220.98" y="182.88" size="1.778" layer="95"/>
 </instance>
-<instance part="SJ2" gate="G$1" x="228.6" y="180.34" smashed="yes">
+<instance part="MS1" gate="G$1" x="228.6" y="180.34" smashed="yes">
 <attribute name="NAME" x="220.98" y="180.34" size="1.778" layer="95"/>
 </instance>
-<instance part="SJ3" gate="G$1" x="228.6" y="177.8" smashed="yes">
+<instance part="MS2" gate="G$1" x="228.6" y="177.8" smashed="yes">
 <attribute name="NAME" x="220.98" y="177.8" size="1.778" layer="95"/>
 </instance>
 <instance part="C5" gate="G$1" x="312.42" y="195.58" smashed="yes" rot="R270">
@@ -24399,26 +24404,26 @@ DIGIKEY: FQD13N06LTMCT-ND</text>
 <instance part="P+13" gate="1" x="325.12" y="218.44" smashed="yes">
 <attribute name="VALUE" x="327.66" y="223.52" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R6" gate="G$1" x="309.88" y="157.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="308.3814" y="156.21" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="313.182" y="153.67" size="1.778" layer="96" rot="R90"/>
+<instance part="R6" gate="G$1" x="309.88" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="308.3814" y="148.59" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="313.182" y="146.05" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R7" gate="G$1" x="317.5" y="157.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="316.0014" y="156.21" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="320.802" y="153.67" size="1.778" layer="96" rot="R90"/>
+<instance part="R7" gate="G$1" x="317.5" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="316.0014" y="148.59" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="320.802" y="146.05" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND9" gate="1" x="309.88" y="137.16"/>
 <instance part="GND10" gate="1" x="317.5" y="137.16"/>
-<instance part="C7" gate="G$1" x="185.42" y="149.86"/>
-<instance part="C8" gate="G$1" x="195.58" y="149.86"/>
-<instance part="P+14" gate="1" x="185.42" y="167.64" smashed="yes">
-<attribute name="VALUE" x="187.96" y="172.72" size="1.778" layer="96" rot="R180"/>
+<instance part="C7" gate="G$1" x="177.8" y="149.86"/>
+<instance part="C8" gate="G$1" x="193.04" y="149.86"/>
+<instance part="P+14" gate="1" x="177.8" y="167.64" smashed="yes">
+<attribute name="VALUE" x="180.34" y="172.72" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+15" gate="1" x="195.58" y="167.64" smashed="yes">
-<attribute name="VALUE" x="198.12" y="172.72" size="1.778" layer="96" rot="R180"/>
+<instance part="P+15" gate="1" x="193.04" y="167.64" smashed="yes">
+<attribute name="VALUE" x="195.58" y="172.72" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND11" gate="1" x="185.42" y="137.16"/>
-<instance part="GND12" gate="1" x="195.58" y="137.16"/>
+<instance part="GND11" gate="1" x="177.8" y="137.16"/>
+<instance part="GND12" gate="1" x="193.04" y="137.16"/>
 <instance part="C9" gate="G$1" x="220.98" y="154.94" smashed="yes">
 <attribute name="NAME" x="222.504" y="157.861" size="1.778" layer="95"/>
 <attribute name="VALUE" x="222.504" y="152.781" size="1.778" layer="96"/>
@@ -24472,6 +24477,7 @@ DIGIKEY: FQD13N06LTMCT-ND</text>
 <instance part="FID5" gate="G$1" x="274.32" y="12.7"/>
 <instance part="FID6" gate="G$1" x="274.32" y="7.62"/>
 <instance part="LOGO1" gate="G$1" x="337.82" y="26.67"/>
+<instance part="SUPPLY1" gate="G$1" x="210.82" y="180.34"/>
 </instances>
 <busses>
 </busses>
@@ -24506,7 +24512,7 @@ DIGIKEY: FQD13N06LTMCT-ND</text>
 <segment>
 <pinref part="C28" gate="G$1" pin="+"/>
 <pinref part="P+10" gate="1" pin="+12V"/>
-<wire x1="175.26" y1="154.94" x2="175.26" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="154.94" x2="160.02" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VMA"/>
@@ -24525,12 +24531,12 @@ DIGIKEY: FQD13N06LTMCT-ND</text>
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="P+15" gate="1" pin="+12V"/>
-<wire x1="195.58" y1="154.94" x2="195.58" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="154.94" x2="193.04" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="P+14" gate="1" pin="+12V"/>
-<wire x1="185.42" y1="154.94" x2="185.42" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="154.94" x2="177.8" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="IN"/>
@@ -24577,7 +24583,7 @@ DIGIKEY: FQD13N06LTMCT-ND</text>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="175.26" y1="139.7" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="139.7" x2="160.02" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="C28" gate="G$1" pin="-"/>
 <pinref part="GND80" gate="1" pin="GND"/>
 </segment>
@@ -24684,22 +24690,22 @@ DIGIKEY: FQD13N06LTMCT-ND</text>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="309.88" y1="152.4" x2="309.88" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="144.78" x2="309.88" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="317.5" y1="152.4" x2="317.5" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="144.78" x2="317.5" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="185.42" y1="147.32" x2="185.42" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="147.32" x2="177.8" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="195.58" y1="147.32" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="147.32" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
@@ -24891,7 +24897,7 @@ DIGIKEY: FQD13N06LTMCT-ND</text>
 </net>
 <net name="MODE0" class="0">
 <segment>
-<pinref part="SJ1" gate="G$1" pin="2"/>
+<pinref part="MS0" gate="G$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="MODE0"/>
 <wire x1="233.68" y1="182.88" x2="238.76" y2="182.88" width="0.1524" layer="91"/>
 </segment>
@@ -24899,13 +24905,13 @@ DIGIKEY: FQD13N06LTMCT-ND</text>
 <net name="MOD1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="MODE1"/>
-<pinref part="SJ2" gate="G$1" pin="2"/>
+<pinref part="MS1" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="180.34" x2="233.68" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MODE2" class="0">
 <segment>
-<pinref part="SJ3" gate="G$1" pin="2"/>
+<pinref part="MS2" gate="G$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="MODE2"/>
 <wire x1="233.68" y1="177.8" x2="238.76" y2="177.8" width="0.1524" layer="91"/>
 </segment>
@@ -24969,7 +24975,7 @@ DIGIKEY: FQD13N06LTMCT-ND</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="ISENB"/>
 <wire x1="307.34" y1="165.1" x2="309.88" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="165.1" x2="309.88" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="165.1" x2="309.88" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -24977,7 +24983,7 @@ DIGIKEY: FQD13N06LTMCT-ND</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="ISENA"/>
 <wire x1="307.34" y1="167.64" x2="317.5" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="167.64" x2="317.5" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="167.64" x2="317.5" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -25033,36 +25039,38 @@ DIGIKEY: FQD13N06LTMCT-ND</text>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="304.8" y1="99.06" x2="304.8" y2="96.52" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="!RESET"/>
+<pinref part="SUPPLY1" gate="G$1" pin="5V"/>
+<wire x1="238.76" y1="175.26" x2="210.82" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="175.26" x2="210.82" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="!SLEEP"/>
+<wire x1="238.76" y1="172.72" x2="210.82" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="172.72" x2="210.82" y2="175.26" width="0.1524" layer="91"/>
+<junction x="210.82" y="175.26"/>
+</segment>
 </net>
 <net name="V3P3OUT" class="1">
 <segment>
 <pinref part="C9" gate="G$1" pin="1"/>
-<pinref part="U1" gate="G$1" pin="!RESET"/>
-<wire x1="238.76" y1="175.26" x2="220.98" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="!SLEEP"/>
-<wire x1="238.76" y1="172.72" x2="220.98" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="172.72" x2="220.98" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="SJ1" gate="G$1" pin="1"/>
+<pinref part="MS0" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="182.88" x2="220.98" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="SJ2" gate="G$1" pin="1"/>
+<pinref part="MS1" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="180.34" x2="220.98" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="180.34" x2="220.98" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="SJ3" gate="G$1" pin="1"/>
+<pinref part="MS2" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="177.8" x2="220.98" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="177.8" x2="220.98" y2="180.34" width="0.1524" layer="91"/>
 <junction x="220.98" y="182.88"/>
 <junction x="220.98" y="180.34"/>
 <wire x1="218.44" y1="210.82" x2="220.98" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="210.82" x2="220.98" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="175.26" x2="220.98" y2="177.8" width="0.1524" layer="91"/>
 <junction x="220.98" y="177.8"/>
-<junction x="220.98" y="175.26"/>
 <pinref part="U1" gate="G$1" pin="V3P3OUT"/>
 <wire x1="238.76" y1="210.82" x2="220.98" y2="210.82" width="0.1524" layer="91"/>
 <junction x="220.98" y="210.82"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="220.98" y1="160.02" x2="220.98" y2="172.72" width="0.1524" layer="91"/>
-<junction x="220.98" y="172.72"/>
+<wire x1="220.98" y1="160.02" x2="220.98" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
