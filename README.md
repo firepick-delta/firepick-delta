@@ -28,6 +28,18 @@ This license lets others remix, tweak, and build upon your work even for commerc
 
 [View License Deed](http://creativecommons.org/licenses/by-sa/4.0/) | [View Legal Code](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
 
+#### Contributors
+* [@FlyingLotus1983 (Neil Jansen)](https://github.com/FlyingLotus1983)
+* [@firepick1 (Karl Lew)](https://github.com/firepick1)
+* [@ChristianLerche (Christian Lerche)](https://github.com/ChristianLerche)
+* [@daytonpid (Dayton Pid)](https://github.com/daytonpid)
+* [@codedetail (Dave Shanklin)](https://github.com/codedetail)
+* [@obnauticus (Thomas Kilbride)](https://github.com/obnauticus)
+
+#### Maintainers
+* [@FlyingLotus1983 (Neil Jansen)](https://github.com/FlyingLotus1983)
+* [@firepick1 (Karl Lew)](https://github.com/firepick1)
+
 #### Contributions and Pull Requests
 
 If you'd like to contribute anything back to this repo, please do so via [pull requests](https://help.github.com/articles/using-pull-requests).  
