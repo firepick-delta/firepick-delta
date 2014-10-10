@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "FirePick - Opto endstop board"
-Date "12 jul 2014"
+Date "26 sep 2014"
 Rev "A"
 Comp "FirePick"
 Comment1 ""
@@ -134,17 +134,6 @@ Wire Wire Line
 	5200 4050 5200 4150
 Wire Wire Line
 	5900 4050 5900 4150
-$Comp
-L BC849 Q1
-U 1 1 53BD4106
-P 7350 3950
-F 0 "Q1" H 7350 3801 40  0000 R CNN
-F 1 "BC849" H 7350 4100 40  0000 R CNN
-F 2 "SOT-23" H 7250 4052 29  0000 C CNN
-F 3 "~" H 7350 3950 60  0000 C CNN
-	1    7350 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5900 3550 6100 3550
 $Comp
@@ -202,7 +191,7 @@ Wire Wire Line
 Text GLabel 6100 3550 2    39   Output ~ 0
 OPTO_OUT
 Wire Wire Line
-	7150 3950 7050 3950
+	7050 3950 7200 3950
 Text GLabel 7050 3950 0    39   Input ~ 0
 OPTO_OUT
 $Comp
@@ -279,4 +268,15 @@ Text Notes 2400 3550 0    60   ~ 0
 JST
 Text Notes 3400 3450 0    60   ~ 0
 0.1 inch pinheader
+$Comp
+L MOS_NFET U1
+U 1 1 5425E7F0
+P 7350 3950
+F 0 "U1" H 7750 3900 60  0000 C CNN
+F 1 "MOS_NFET" H 7750 4000 60  0000 C CNN
+F 2 "~" H 7450 3950 60  0000 C CNN
+F 3 "~" H 7450 3950 60  0000 C CNN
+	1    7350 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
