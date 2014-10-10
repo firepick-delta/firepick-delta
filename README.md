@@ -35,6 +35,8 @@ This license lets others remix, tweak, and build upon your work even for commerc
 * [@daytonpid (Dayton Pid)](https://github.com/daytonpid)
 * [@codedetail (Dave Shanklin)](https://github.com/codedetail)
 * [@obnauticus (Thomas Kilbride)](https://github.com/obnauticus)
+* [@mstegen (Mike Stegen)](https://github.com/mstegen)
+* [@mikeanton (Mike Anton)](https://github.com/mikeanton)
 
 #### Maintainers
 * [@FlyingLotus1983 (Neil Jansen)](https://github.com/FlyingLotus1983)
