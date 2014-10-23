@@ -1,0 +1,2 @@
+DRC SAVE '/home/obnauticus/repos/firepick-delta/electronics/emc01/FPC-EMC01-1284.dru';
+RUN eagle2freerouter.ulp 'FPC-EMC01-1284.dru';
