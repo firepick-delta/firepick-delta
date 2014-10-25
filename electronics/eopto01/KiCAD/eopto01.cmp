@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12-07-2014 22:06:37
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 27-09-2014 00:24:37
 
 BeginCmp
 TimeStamp = /53BD419B;
@@ -29,13 +29,6 @@ IdModule  = Lerche_TCST2103;
 EndCmp
 
 BeginCmp
-TimeStamp = /53BD4106;
-Reference = Q1;
-ValeurCmp = BC849;
-IdModule  = SOT23;
-EndCmp
-
-BeginCmp
 TimeStamp = /53BD4026;
 Reference = R1;
 ValeurCmp = 120;
@@ -54,6 +47,13 @@ TimeStamp = /53BD41A8;
 Reference = R3;
 ValeurCmp = 1k;
 IdModule  = Lerche_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5425E7F0;
+Reference = U1;
+ValeurCmp = MOS_NFET;
+IdModule  = SOT23;
 EndCmp
 
 EndListe

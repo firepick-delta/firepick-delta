@@ -23844,14 +23844,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="K1" library="FLYFISH" deviceset="PIN20X2" device="" value="RPI_GPIO"/>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="M0805" value="3k9">
+<part name="R1" library="resistor" deviceset="R-EU_" device="M0805" value="4.7K">
 <attribute name="TOLERANCE" value="5%"/>
 </part>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="C1" library="resistor" deviceset="C-EU" device="C0805K" value="100nF">
+<part name="C1" library="resistor" deviceset="C-EU" device="C0805K" value="0.1uF">
 <attribute name="DIELECTRIC" value="X7R"/>
 </part>
-<part name="R2" library="resistor" deviceset="R-EU_" device="M0805" value="3k9">
+<part name="R2" library="resistor" deviceset="R-EU_" device="M0805" value="4.7K">
 <attribute name="TOLERANCE" value="5%"/>
 </part>
 <part name="R3" library="resistor" deviceset="R-EU_" device="M0805" value="1k">
@@ -23876,10 +23876,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J2" library="FirePick" deviceset="CONN-RECT-4PIN" device="JST-PH-2MM"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="55"/>
-<part name="C2" library="resistor" deviceset="C-EU" device="C0805K" value="100nF">
+<part name="C2" library="resistor" deviceset="C-EU" device="C0805K" value="0.1uF">
 <attribute name="DIELECTRIC" value="X7R"/>
 </part>
-<part name="C3" library="resistor" deviceset="C-EU" device="C0805K" value="100nF">
+<part name="C3" library="resistor" deviceset="C-EU" device="C0805K" value="0.1uF">
 <attribute name="DIELECTRIC" value="X7R"/>
 </part>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device="" value="DMG2305UX"/>
@@ -23899,7 +23899,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="Q3" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k?"/>
+<part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1K"/>
 <part name="J4" library="FirePick" deviceset="CONN-FFC-SFW15R" device=""/>
 <part name="J3" library="FirePick" deviceset="CONN-HDMI" device=""/>
 <part name="U$15" library="12v" deviceset="12V" device=""/>
@@ -23911,22 +23911,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="L1" library="inductors" deviceset="SLF7045" device=""/>
 <part name="D1" library="diode" deviceset="DIODE-" device="DO-214AC"/>
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
-<part name="C4" library="rcl" deviceset="CPOL-US" device="D" value="470uF"/>
+<part name="C4" library="rcl" deviceset="CPOL-US" device="D" value="470 uF 25V"/>
 <part name="GND17" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$1" library="12v" deviceset="12V" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="J6" library="FirePick" deviceset="CONN-RECT-2PIN" device=""/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100nF">
+<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="DIELECTRIC" value="X7R"/>
 </part>
-<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100nF">
+<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="DIELECTRIC" value="X7R"/>
 </part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="?"/>
-<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="?"/>
-<part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="?"/>
+<part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="0"/>
+<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="5.6k"/>
+<part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="DNP"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
@@ -24017,7 +24017,7 @@ ROTARY ENCODER</text>
 <text x="154.305" y="168.275" size="5.08" layer="94">PIEZO BUZZER</text>
 <text x="159.385" y="8.89" size="5.08" layer="94">ERPIHAT01 Raspberry Pi HAT 
 for FirePick Delta</text>
-<text x="0" y="274.32" size="5.08" layer="91">TODO: ADD ESD PROTECTION TO BUTTONS AND ENCODER</text>
+<text x="10.16" y="53.34" size="5.08" layer="91">TODO: ADD ESD PROTECTION TO BUTTONS AND ENCODER</text>
 </plain>
 <instances>
 <instance part="K1" gate="G$1" x="60.96" y="96.52" rot="R180"/>
@@ -24175,14 +24175,14 @@ for FirePick Delta</text>
 <attribute name="NAME" x="87.63" y="220.726" size="1.778" layer="95"/>
 <attribute name="VALUE" x="87.503" y="215.392" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="G$1" x="80.01" y="200.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="79.5274" y="203.2" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="82.3214" y="203.2" size="1.778" layer="96" rot="R90"/>
+<instance part="D1" gate="G$1" x="80.01" y="195.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="79.5274" y="198.12" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="82.3214" y="198.12" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND16" gate="1" x="80.01" y="177.8"/>
-<instance part="C4" gate="G$1" x="101.6" y="203.2" smashed="yes">
-<attribute name="NAME" x="102.616" y="203.835" size="1.778" layer="95"/>
-<attribute name="VALUE" x="102.616" y="199.009" size="1.778" layer="96"/>
+<instance part="C4" gate="G$1" x="101.6" y="198.12" smashed="yes">
+<attribute name="NAME" x="102.616" y="198.755" size="1.778" layer="95"/>
+<attribute name="VALUE" x="102.616" y="193.929" size="1.778" layer="96"/>
 </instance>
 <instance part="GND17" gate="1" x="101.6" y="177.8"/>
 <instance part="U$1" gate="G$1" x="25.4" y="229.87"/>
@@ -24372,12 +24372,12 @@ for FirePick Delta</text>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="80.01" y1="180.34" x2="80.01" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="80.01" y1="180.34" x2="80.01" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="-"/>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="101.6" y1="198.12" x2="101.6" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="193.04" x2="101.6" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="208.28" x2="25.4" y2="208.28" width="0.1524" layer="91"/>
@@ -25062,7 +25062,7 @@ for FirePick Delta</text>
 <wire x1="83.82" y1="218.44" x2="80.01" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="80.01" y1="218.44" x2="76.2" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="80.01" y1="203.2" x2="80.01" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="80.01" y1="198.12" x2="80.01" y2="218.44" width="0.1524" layer="91"/>
 <junction x="80.01" y="218.44"/>
 </segment>
 </net>
@@ -25081,7 +25081,7 @@ for FirePick Delta</text>
 <wire x1="99.06" y1="218.44" x2="101.6" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="+"/>
 <wire x1="101.6" y1="218.44" x2="119.38" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="205.74" x2="101.6" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="200.66" x2="101.6" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="213.36" x2="101.6" y2="218.44" width="0.1524" layer="91"/>
 <junction x="101.6" y="213.36"/>
 <junction x="101.6" y="218.44"/>
