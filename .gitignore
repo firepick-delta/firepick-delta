@@ -4,4 +4,5 @@
 *.pro*
 *.un*
 *.old
+*.gcode
 old
