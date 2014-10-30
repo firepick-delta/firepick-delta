@@ -24338,7 +24338,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="215.9" y="55.88" size="1.778" layer="91">TODO: For beefier version, change MOSFET to 060N06</text>
 <text x="289.56" y="20.32" size="1.778" layer="94" ratio="15">Drawn by: NEIL JANSEN</text>
 <text x="289.56" y="16.51" size="1.778" layer="94" ratio="15">Checked  by:</text>
-<text x="374.65" y="5.08" size="2.54" layer="94" ratio="10">v0.1</text>
+<text x="290.83" y="7.62" size="2.54" layer="94" ratio="10">Rev A</text>
 <wire x1="5.715" y1="28.575" x2="288.29" y2="28.575" width="0.3048" layer="94"/>
 <wire x1="288.29" y1="28.575" x2="288.29" y2="3.81" width="0.3048" layer="94"/>
 <text x="159.385" y="8.89" size="5.08" layer="94">EAT0001 Modular Tool Interface Board
