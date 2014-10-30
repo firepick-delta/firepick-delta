@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -25185,6 +25185,7 @@ for FirePick Delta</text>
 <junction x="324.485" y="74.295"/>
 <wire x1="260.985" y1="79.375" x2="324.485" y2="79.375" width="0.1524" layer="91"/>
 <label x="266.065" y="79.375" size="1.778" layer="95" font="vector"/>
+<junction x="260.985" y="99.695"/>
 </segment>
 </net>
 </nets>
