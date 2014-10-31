@@ -19470,7 +19470,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="4.7K"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
-<part name="IC1" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223"/>
+<part name="U3" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="U$15" library="12v" deviceset="12V" device=""/>
@@ -19805,7 +19805,7 @@ HEADER</text>
 <instance part="P+7" gate="1" x="90.17" y="177.8" smashed="yes">
 <attribute name="VALUE" x="87.63" y="177.8" size="1.778" layer="96"/>
 </instance>
-<instance part="IC1" gate="G$1" x="214.63" y="218.44"/>
+<instance part="U3" gate="G$1" x="214.63" y="218.44"/>
 <instance part="GND13" gate="1" x="214.63" y="199.39"/>
 <instance part="P+8" gate="1" x="234.95" y="232.41" smashed="yes">
 <attribute name="VALUE" x="232.41" y="232.41" size="1.778" layer="96"/>
@@ -20118,7 +20118,7 @@ HEADER</text>
 <junction x="355.6" y="124.46"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="ADJ"/>
+<pinref part="U3" gate="G$1" pin="ADJ"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="214.63" y1="210.82" x2="214.63" y2="201.93" width="0.1524" layer="91"/>
 </segment>
@@ -20260,7 +20260,7 @@ HEADER</text>
 <wire x1="147.32" y1="162.56" x2="147.32" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="IN"/>
+<pinref part="U3" gate="G$1" pin="IN"/>
 <pinref part="U$15" gate="G$1" pin="12V"/>
 <wire x1="207.01" y1="218.44" x2="201.93" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="201.93" y1="218.44" x2="201.93" y2="226.06" width="0.1524" layer="91"/>
@@ -20522,7 +20522,7 @@ HEADER</text>
 </segment>
 <segment>
 <pinref part="P+8" gate="1" pin="+5V"/>
-<pinref part="IC1" gate="G$1" pin="OUT@1"/>
+<pinref part="U3" gate="G$1" pin="OUT@1"/>
 <wire x1="234.95" y1="215.9" x2="234.95" y2="229.87" width="0.1524" layer="91"/>
 <wire x1="222.25" y1="215.9" x2="227.33" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="227.33" y1="215.9" x2="234.95" y2="215.9" width="0.1524" layer="91"/>
@@ -20532,7 +20532,7 @@ HEADER</text>
 <pinref part="C2" gate="G$1" pin="+"/>
 <wire x1="234.95" y1="212.09" x2="234.95" y2="215.9" width="0.1524" layer="91"/>
 <junction x="234.95" y="215.9"/>
-<pinref part="IC1" gate="G$1" pin="OUT"/>
+<pinref part="U3" gate="G$1" pin="OUT"/>
 <wire x1="222.25" y1="218.44" x2="227.33" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="227.33" y1="218.44" x2="227.33" y2="215.9" width="0.1524" layer="91"/>
 </segment>

@@ -24271,7 +24271,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U2" library="FirePick" deviceset="IC-24AA014" device="" value="24AA014"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND69" library="SparkFun" deviceset="GND" device=""/>
-<part name="M1" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="FDD8580" value="FQD13N06LTM"/>
+<part name="Q1" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="FDD8580" value="FQD13N06LTM"/>
 <part name="GND70" library="SparkFun" deviceset="GND" device=""/>
 <part name="C28" library="rcl" deviceset="CPOL-EU" device="UD-6,3X7,7" value="100 uF 25V"/>
 <part name="GND80" library="SparkFun" deviceset="GND" device=""/>
@@ -24374,7 +24374,7 @@ DIGIKEY: FQD13N06LTMCT-ND</text>
 </instance>
 <instance part="GND3" gate="1" x="55.88" y="63.5"/>
 <instance part="GND69" gate="1" x="241.3" y="66.04"/>
-<instance part="M1" gate="G$1" x="241.3" y="81.28"/>
+<instance part="Q1" gate="G$1" x="241.3" y="81.28"/>
 <instance part="GND70" gate="1" x="231.14" y="66.04"/>
 <instance part="C28" gate="G$1" x="160.02" y="152.4"/>
 <instance part="GND80" gate="1" x="160.02" y="137.16"/>
@@ -24575,7 +24575,7 @@ DIGIKEY: FQD13N06LTMCT-ND</text>
 <segment>
 <wire x1="241.3" y1="76.2" x2="241.3" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="GND69" gate="1" pin="GND"/>
-<pinref part="M1" gate="G$1" pin="S"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <wire x1="231.14" y1="71.12" x2="231.14" y2="68.58" width="0.1524" layer="91"/>
@@ -24850,7 +24850,7 @@ DIGIKEY: FQD13N06LTMCT-ND</text>
 <segment>
 <wire x1="233.68" y1="81.28" x2="231.14" y2="81.28" width="0.1524" layer="91"/>
 <label x="215.9" y="81.28" size="1.778" layer="95"/>
-<pinref part="M1" gate="G$1" pin="G"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="81.28" x2="215.9" y2="81.28" width="0.1524" layer="91"/>
 <junction x="231.14" y="81.28"/>
@@ -24870,7 +24870,7 @@ DIGIKEY: FQD13N06LTMCT-ND</text>
 </net>
 <net name="HOTBED-GND" class="2">
 <segment>
-<pinref part="M1" gate="G$1" pin="D"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="261.62" y1="88.9" x2="241.3" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="88.9" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
 <label x="243.84" y="88.9" size="1.778" layer="95"/>
