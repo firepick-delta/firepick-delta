@@ -11,6 +11,8 @@ It documents the Loose Canon variants of FirePick Delta and provides a good star
 * Raspberry Pi
 * Raspberry Pi Camera
 
+<a href="https://github.com/firepick1/FPD-LooseCanon/blob/dev/images/FPD-003.jpg"><img src="https://github.com/firepick1/FPD-LooseCanon/blob/dev/images/FPD-003.jpg" height=200px></a>
+
 #### Licensing
 
 ![CC-BY-SA](http://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/CC-BY-SA_icon.svg/320px-CC-BY-SA_icon.svg.png)
