@@ -1,21 +1,17 @@
-### FirePick Delta Hardware/Mechanical Repo
+### FirePick Delta -- FPD-003 The Loose Canon Build
 
 #### Summary / Context
 
-Design and Manufacturing Specifications for [FirePick Delta](http://delta.firepick.org).  If you're a developer wanting to help, the best way to do that is to join the [mailing list](https://groups.google.com/forum/#!forum/firepick) and start a line of communication there.  
+This is a fork of the main FirePick Delta repository:
+* https://github.com/firepick-delta/firepick-delta
 
-This repo only contains the hardware (sch/pcb) and mechanical (3d) files for FirePick Delta.  It inherits software from OpenPnP, Marlin, and FirePick.  Other repo's of interest for FirePick Delta:
+It documents the Loose Canon variants of FirePick Delta and provides a good starting point for a simple, bare-bones build that has:
 
-* https://github.com/firepick-delta/openpnp
-* https://github.com/firepick-delta/Marlin
-* https://github.com/firepick1/FireREST
-* https://github.com/firepick1/FireBOM
+* FirePick Delta drive and effector
+* Raspberry Pi
+* Raspberry Pi Camera
 
-#### Mechanical Assembly Parts Tree, Instructions, and BOM
-
-Please click the link below to navigate the mechanical assembly with our FireBOM wiki documentation system:
-
-[AFPD0001](AFPD0001) FirePick Delta Hacker-Developer Edition
+<a href="https://github.com/firepick1/FPD-LooseCanon/blob/dev/images/FPD-003.jpg"><img src="https://github.com/firepick1/FPD-LooseCanon/blob/dev/images/FPD-003.jpg" height=300px></a>
 
 #### Licensing
 
@@ -39,11 +35,11 @@ This license lets others remix, tweak, and build upon your work even for commerc
 * [@mikeanton (Mike Anton)](https://github.com/mikeanton)
 
 #### Maintainers
-* [@FlyingLotus1983 (Neil Jansen)](https://github.com/FlyingLotus1983)
 * [@firepick1 (Karl Lew)](https://github.com/firepick1)
 
 #### Contributions and Pull Requests
-
-If you'd like to contribute anything back to this repo, please do so via [pull requests](https://help.github.com/articles/using-pull-requests).  
-
-Keep in mind that the Cubify Design files are binary blobs.  Assembly (AD_ASM) files contain filepath links back to dependent solid parts (AD_PRT), and parts contain filepath links back to the assembly.  This makes it extremely tricky to use version control.  You can't just rename files all willy-nilly, or else Cubify will get very angry.  Please excercise caution and contact the FirePick Delta Dev Team via [google group mailing list](https://groups.google.com/forum/#!forum/firepick) before attempting to modify anything of significant nature.
+It's really hard to accept pull requests because they are "all or nothing" for binary files such 
+as the Cubify files that make up a large portion of this repository. 
+Instead, share your thoughts and links to your design changes in your own repository.
+This will allow folks to incorporate your idea into their own designs or they can simply copy the file
+from your own fork.
