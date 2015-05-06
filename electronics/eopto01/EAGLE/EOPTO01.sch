@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -132,24 +132,6 @@
 <libraries>
 <library name="FirePick">
 <packages>
-<package name="CONN-JST_PH-2.0MM-3PIN-SMT-RA">
-<wire x1="-4.99" y1="0.47" x2="-4.99" y2="-3.03" width="0.2032" layer="21"/>
-<wire x1="-4.99" y1="-3.03" x2="-4.19" y2="-3.03" width="0.2032" layer="21"/>
-<wire x1="-4.19" y1="-3.03" x2="-4.19" y2="-0.53" width="0.2032" layer="21"/>
-<wire x1="-4.19" y1="-0.53" x2="-2.99" y2="-0.53" width="0.2032" layer="21"/>
-<wire x1="3.01" y1="-0.53" x2="4.21" y2="-0.53" width="0.2032" layer="21"/>
-<wire x1="4.21" y1="-0.53" x2="4.21" y2="-3.03" width="0.2032" layer="21"/>
-<wire x1="4.21" y1="-3.03" x2="5.01" y2="-3.03" width="0.2032" layer="21"/>
-<wire x1="5.01" y1="-3.03" x2="5.01" y2="0.47" width="0.2032" layer="21"/>
-<wire x1="3.01" y1="4.47" x2="-2.99" y2="4.47" width="0.2032" layer="21"/>
-<smd name="1" x="2.01" y="-2.23" dx="1" dy="4.6" layer="1"/>
-<smd name="3" x="-1.99" y="-2.23" dx="1" dy="4.6" layer="1"/>
-<smd name="NC1" x="-4.39" y="2.97" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="NC2" x="4.41" y="2.97" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="2" x="0.01" y="-2.23" dx="1" dy="4.6" layer="1"/>
-<text x="-2.26" y="2.74" size="0.4064" layer="25">&gt;Name</text>
-<text x="-2.26" y="1.47" size="0.4064" layer="27">&gt;Value</text>
-</package>
 <package name="TCST2013">
 <hole x="-9.5" y="0" drill="3.4"/>
 <hole x="9.5" y="0" drill="3.4"/>
@@ -11744,20 +11726,6 @@
 </package>
 </packages>
 <symbols>
-<symbol name="CONN-3PIN">
-<wire x1="-1.27" y1="-5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-3.81" y1="2.54" x2="-2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="-5.08" x2="-1.27" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="5.08" x2="-1.27" y2="5.08" width="0.4064" layer="94"/>
-<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-6.35" y="5.842" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="2.54" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="2.54" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<wire x1="-3.81" y1="-2.54" x2="-2.54" y2="-2.54" width="0.6096" layer="94"/>
-<pin name="3" x="2.54" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
 <symbol name="OPTO-INTERRUPTOR">
 <wire x1="-12.7" y1="6.35" x2="-12.7" y2="-8.89" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-8.89" x2="12.7" y2="-8.89" width="0.254" layer="94"/>
@@ -15833,23 +15801,6 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CONN-RECT-3PIN" prefix="J">
-<gates>
-<gate name="G$1" symbol="CONN-3PIN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="JST_PH_2MM" package="CONN-JST_PH-2.0MM-3PIN-SMT-RA">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TCST2103" prefix="OPTO">
 <gates>
 <gate name="G$1" symbol="OPTO-INTERRUPTOR" x="0" y="0"/>
@@ -17198,12 +17149,21 @@ High-power, low thermal resistance package.</description>
 </class>
 </classes>
 <parts>
-<part name="J1" library="FirePick" deviceset="CONN-RECT-3PIN" device="JST_PH_2MM"/>
-<part name="J2" library="!con-lstb" deviceset="MA03-1" device=""/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="120"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="1k"/>
-<part name="LED1" library="SparkFun-LED" deviceset="LED" device="1206"/>
+<part name="J1" library="!con-lstb" deviceset="MA03-1" device="" value="CONN-0.1-S-1X3">
+<attribute name="PARTNO" value="CONN-0.1-RA-1X3"/>
+</part>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="120">
+<attribute name="PARTNO" value="RC0805FR-07120RL"/>
+</part>
+<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k">
+<attribute name="PARTNO" value="RC0805FR-0710KL"/>
+</part>
+<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="1k">
+<attribute name="PARTNO" value="RC0805FR-071KL"/>
+</part>
+<part name="LED1" library="SparkFun-LED" deviceset="LED" device="1206" value="AMBER">
+<attribute name="PARTNO" value="LTST-C150AKT"/>
+</part>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
@@ -17211,16 +17171,30 @@ High-power, low thermal resistance package.</description>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="OPTO1" library="FirePick" deviceset="TCST2103" device=""/>
-<part name="FID3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="FID4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
+<part name="OPTO1" library="FirePick" deviceset="TCST2103" device="">
+<attribute name="PARTNO" value="TCST2103"/>
+</part>
+<part name="FID3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="FID4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
-<part name="LOGO4" library="FirePick" deviceset="LOGO-FIREPICK" device="MEDIUM" value="LOGO-FIREPICKMEDIUM"/>
-<part name="LOGO5" library="FirePick" deviceset="LOGO-OSHW" device="SMALL" value="LOGO-OSHWSMALL"/>
-<part name="LOGO6" library="FirePick" deviceset="LOGO-CC-BY-SA" device="MEDIUM" value="LOGO-CC-BY-SAMEDIUM"/>
+<part name="LOGO4" library="FirePick" deviceset="LOGO-FIREPICK" device="MEDIUM" value="LOGO-FIREPICKMEDIUM">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="LOGO5" library="FirePick" deviceset="LOGO-OSHW" device="SMALL" value="LOGO-OSHWSMALL">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
+<part name="LOGO6" library="FirePick" deviceset="LOGO-CC-BY-SA" device="MEDIUM" value="LOGO-CC-BY-SAMEDIUM">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS138" value="BSS138"/>
+<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS138" value="BSS138">
+<attribute name="PARTNO" value="BSS138"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -17234,16 +17208,22 @@ High-power, low thermal resistance package.</description>
 for FirePick Delta</text>
 </plain>
 <instances>
-<instance part="J1" gate="G$1" x="83.82" y="134.62" smashed="yes">
-<attribute name="NAME" x="77.47" y="140.462" size="1.778" layer="95"/>
-</instance>
-<instance part="J2" gate="G$1" x="93.98" y="134.62" smashed="yes" rot="MR180">
+<instance part="J1" gate="G$1" x="93.98" y="134.62" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="92.71" y="142.24" size="1.778" layer="96" rot="MR180"/>
+<attribute name="PARTNO" x="93.98" y="134.62" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R1" gate="G$1" x="142.24" y="162.56" rot="R90"/>
-<instance part="R2" gate="G$1" x="198.12" y="162.56" rot="R90"/>
-<instance part="R3" gate="G$1" x="259.08" y="162.56" rot="R90"/>
-<instance part="LED1" gate="G$1" x="259.08" y="152.4"/>
+<instance part="R1" gate="G$1" x="142.24" y="162.56" rot="R90">
+<attribute name="PARTNO" x="142.24" y="162.56" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="198.12" y="162.56" rot="R90">
+<attribute name="PARTNO" x="198.12" y="162.56" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="259.08" y="162.56" rot="R90">
+<attribute name="PARTNO" x="259.08" y="162.56" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="LED1" gate="G$1" x="259.08" y="152.4">
+<attribute name="PARTNO" x="259.08" y="152.4" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY1" gate="G$1" x="198.12" y="172.72"/>
 <instance part="SUPPLY2" gate="G$1" x="259.08" y="172.72"/>
 <instance part="SUPPLY3" gate="G$1" x="142.24" y="172.72"/>
@@ -17251,16 +17231,30 @@ for FirePick Delta</text>
 <instance part="GND2" gate="1" x="198.12" y="119.38"/>
 <instance part="GND3" gate="1" x="259.08" y="119.38"/>
 <instance part="GND4" gate="1" x="96.52" y="12.7"/>
-<instance part="OPTO1" gate="G$1" x="167.64" y="134.62"/>
-<instance part="FID3" gate="G$1" x="284.48" y="12.7"/>
-<instance part="FID4" gate="G$1" x="284.48" y="7.62"/>
+<instance part="OPTO1" gate="G$1" x="167.64" y="134.62">
+<attribute name="PARTNO" x="167.64" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="FID3" gate="G$1" x="284.48" y="12.7">
+<attribute name="BOM" x="284.48" y="12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="FID4" gate="G$1" x="284.48" y="7.62">
+<attribute name="BOM" x="284.48" y="7.62" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="FRAME1" gate="G$1" x="0.000003125" y="0"/>
-<instance part="LOGO4" gate="G$1" x="85.09" y="8.89"/>
-<instance part="LOGO5" gate="G$1" x="360.68" y="26.67"/>
-<instance part="LOGO6" gate="G$1" x="3.81" y="3.81"/>
+<instance part="LOGO4" gate="G$1" x="85.09" y="8.89">
+<attribute name="BOM" x="85.09" y="8.89" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="LOGO5" gate="G$1" x="360.68" y="26.67">
+<attribute name="BOM" x="360.68" y="26.67" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="LOGO6" gate="G$1" x="3.81" y="3.81">
+<attribute name="BOM" x="3.81" y="3.81" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND5" gate="1" x="109.22" y="119.38"/>
 <instance part="SUPPLY4" gate="G$1" x="109.22" y="172.72"/>
-<instance part="Q2" gate="G$1" x="259.08" y="137.16"/>
+<instance part="Q2" gate="G$1" x="259.08" y="137.16">
+<attribute name="PARTNO" x="259.08" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17268,8 +17262,6 @@ for FirePick Delta</text>
 <net name="OPTO_OUT" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="134.62" x2="101.6" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="134.62" x2="119.38" y2="134.62" width="0.1524" layer="91"/>
 <label x="111.76" y="134.62" size="1.778" layer="95"/>
 </segment>
@@ -17309,8 +17301,6 @@ for FirePick Delta</text>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="137.16" x2="101.6" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="137.16" x2="109.22" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="G$1" pin="5V"/>
 <wire x1="109.22" y1="137.16" x2="109.22" y2="172.72" width="0.1524" layer="91"/>
@@ -17324,8 +17314,6 @@ for FirePick Delta</text>
 <net name="GND" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
-<pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="86.36" y1="132.08" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="132.08" x2="109.22" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="109.22" y1="132.08" x2="109.22" y2="121.92" width="0.1524" layer="91"/>

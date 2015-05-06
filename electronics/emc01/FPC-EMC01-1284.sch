@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19477,6 +19477,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="J10" library="FirePick" deviceset="CONN-OSTTA020161" device=""/>
+<part name="U4" library="FirePick" deviceset="IC-ATMEGA1284P-AU" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19504,7 +19505,7 @@ for FTDI driver but do not populate for cost
 reduction)</text>
 <text x="289.56" y="20.32" size="1.778" layer="94" ratio="15">Drawn by: NEIL JANSEN</text>
 <text x="289.56" y="16.51" size="1.778" layer="94" ratio="15">Checked  by:</text>
-<text x="290.83" y="7.62" size="2.54" layer="94" ratio="10">Revision B</text>
+<text x="290.83" y="7.62" size="2.54" layer="94" ratio="10">Revision C</text>
 <wire x1="5.715" y1="28.575" x2="288.29" y2="28.575" width="0.3048" layer="94"/>
 <wire x1="288.29" y1="28.575" x2="288.29" y2="3.81" width="0.3048" layer="94"/>
 <text x="159.385" y="8.89" size="5.08" layer="94">EMC01 Motion Controller
@@ -19529,6 +19530,11 @@ HEADER</text>
 <text x="186.69" y="72.39" size="5.08" layer="94">Z AXIS STEPPER DRIVER</text>
 <text x="5.08" y="30.48" size="1.778" layer="95">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
 <text x="207.01" y="226.06" size="5.08" layer="94">VREG</text>
+<text x="299.72" y="40.64" size="1.778" layer="91">Revision A: First official release.
+Revision B: Added voltage regulator.  
+    Moved vias.  Updated silkscreen.
+Revision C: Fixed air-wire @ C3/C11 to 
+    GND (Thanks, Douglas!)</text>
 </plain>
 <instances>
 <instance part="GND27" gate="1" x="267.97" y="179.07"/>
@@ -21333,6 +21339,20 @@ HEADER</text>
 <label x="53.34" y="72.39" size="1.778" layer="95"/>
 </segment>
 </net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="10.16" y="68.58" size="1.778" layer="91">ARDUINO PIN MAPPING
+-----------------------------------------
+</text>
+</plain>
+<instances>
+<instance part="U4" gate="G$1" x="-35.56" y="67.31"/>
+</instances>
+<busses>
+</busses>
+<nets>
 </nets>
 </sheet>
 </sheets>

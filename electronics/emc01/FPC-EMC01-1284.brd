@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -30,9 +30,9 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -5740,6 +5740,7 @@ design rules under a new name.</description>
 <element name="J10" library="FirePick" package="CONN-OSTTA020161" value="CONN-OSTTA020161" x="50" y="87.8" smashed="yes">
 <attribute name="NAME" x="56.7" y="86.3" size="1.5" layer="21" ratio="10" rot="R90"/>
 </element>
+<element name="U4" library="FirePick" package="QFP44" value="IC-ATMEGA1284P-AU" x="8.1" y="-7.8"/>
 </elements>
 <signals>
 <signal name="GND" class="1">
@@ -5884,9 +5885,9 @@ design rules under a new name.</description>
 <wire x1="41.43639375" y1="44.63639375" x2="42.03639375" y2="44.63639375" width="0.3" layer="1"/>
 <wire x1="42.03639375" y1="44.63639375" x2="42.4" y2="45" width="0.3" layer="1"/>
 <via x="42.4" y="45" extent="1-16" drill="0.3048"/>
-<wire x1="49.73639375" y1="38.063603125" x2="48.53639375" y2="36.863603125" width="0.3" layer="1"/>
+<wire x1="49.73639375" y1="38.063603125" x2="49.03639375" y2="37.363603125" width="0.3" layer="1"/>
+<wire x1="49.03639375" y1="37.363603125" x2="48.53639375" y2="36.863603125" width="0.3" layer="1"/>
 <wire x1="48.53639375" y1="36.863603125" x2="48.53639375" y2="36.763603125" width="0.3" layer="1"/>
-<wire x1="49.9" y1="36.7" x2="48.53639375" y2="36.73639375" width="0" layer="19" extent="1-16"/>
 <wire x1="48.53639375" y1="36.73639375" x2="48.53639375" y2="36.763603125" width="0.3" layer="1"/>
 <via x="23.2" y="86.6" extent="1-16" drill="0.5"/>
 <via x="24.2" y="82.6" extent="1-16" drill="0.5"/>
@@ -6017,6 +6018,8 @@ design rules under a new name.</description>
 <via x="50.2" y="91.3" extent="1-16" drill="0.5"/>
 <via x="57" y="90.6" extent="1-16" drill="0.5"/>
 <via x="57.6" y="86" extent="1-16" drill="0.5"/>
+<wire x1="49.9" y1="36.7" x2="49.236396875" y2="37.363603125" width="0.3" layer="1"/>
+<wire x1="49.236396875" y1="37.363603125" x2="49.03639375" y2="37.363603125" width="0.3" layer="1"/>
 </signal>
 <signal name="12V">
 <contactref element="C16" pad="+"/>
@@ -7017,7 +7020,11 @@ design rules under a new name.</description>
 <wire x1="19.3" y1="27.4" x2="21.291440625" y2="28.582075" width="1" layer="1"/>
 <wire x1="24.7807375" y1="39.83955625" x2="16.789" y2="26.91755625" width="1.5" layer="16"/>
 <wire x1="16.8" y1="26.9" x2="16.2" y2="28.1" width="1" layer="1"/>
-<wire x1="16.8" y1="26.9" x2="16.789" y2="26.91755625" width="0" layer="19" extent="1-1"/>
+<wire x1="16.789" y1="26.91755625" x2="16.78" y2="26.92655625" width="0.3" layer="16"/>
+<wire x1="16.78" y1="26.92655625" x2="16.78" y2="26.94" width="0.3" layer="16"/>
+<wire x1="16.789" y1="26.91755625" x2="16.76" y2="26.94655625" width="0.3" layer="16"/>
+<wire x1="16.76" y1="26.94655625" x2="16.76" y2="26.98" width="0.3" layer="16"/>
+<wire x1="16.789" y1="26.91755625" x2="16.8" y2="26.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="STEPSTICK2" pad="!SLEEP!"/>
@@ -7094,9 +7101,9 @@ design rules under a new name.</description>
 <via x="52.3" y="25.7" extent="1-16" drill="0.3048"/>
 <via x="56.5" y="24.8" extent="1-16" drill="0.3048"/>
 <wire x1="56.5" y1="24.8" x2="56.5" y2="25.7" width="0.3" layer="1"/>
-<wire x1="56.5" y1="25.7" x2="57.5" y2="25.7" width="0.3" layer="1"/>
-<wire x1="57.5" y1="25.7" x2="57.75" y2="25.45" width="0.3" layer="1"/>
-<wire x1="58.675" y1="25.45" x2="57.75" y2="25.45" width="0.3" layer="1"/>
+<wire x1="56.5" y1="25.7" x2="58.1" y2="25.7" width="0.3" layer="1"/>
+<wire x1="58.1" y1="25.7" x2="58.35" y2="25.45" width="0.3" layer="1"/>
+<wire x1="58.675" y1="25.45" x2="58.35" y2="25.45" width="0.3" layer="1"/>
 <wire x1="56.5" y1="24.8" x2="53.2" y2="24.8" width="0.3" layer="16"/>
 <wire x1="53.2" y1="24.8" x2="52.3" y2="25.7" width="0.3" layer="16"/>
 <contactref element="TP5" pad="1"/>
@@ -7304,6 +7311,16 @@ design rules under a new name.</description>
 <wire x1="33.239259375" y1="50.588965625" x2="34.411034375" y2="50.588965625" width="0.3" layer="16"/>
 <wire x1="34.411034375" y1="50.588965625" x2="34.7" y2="50.3" width="0.3" layer="16"/>
 <wire x1="34.7" y1="50.3" x2="40.2" y2="50.3" width="0.3" layer="16"/>
+</signal>
+<signal name="VCC">
+<contactref element="U4" pad="5"/>
+<contactref element="U4" pad="17"/>
+<contactref element="U4" pad="38"/>
+<wire x1="2.3596" y1="-7.0126" x2="8.8874" y2="-2.0596" width="0" layer="19" extent="1-1"/>
+<wire x1="8.1" y1="-13.5404" x2="2.3596" y2="-7.0126" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="AVCC">
+<contactref element="U4" pad="27"/>
 </signal>
 </signals>
 <errors>
