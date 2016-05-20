@@ -32,7 +32,7 @@ This license lets others remix, tweak, and build upon your work even for commerc
 * [@FlyingLotus1983 (Neil Jansen)](https://github.com/FlyingLotus1983)
 * [@firepick1 (Karl Lew)](https://github.com/firepick1)
 * [@ChristianLerche (Christian Lerche)](https://github.com/ChristianLerche)
-* [@daytonpid (Dayton Pid)](https://github.com/daytonpid)
+* [@daytonpid (Dayton Pidhirney)](https://github.com/daytonpid)
 * [@codedetail (Dave Shanklin)](https://github.com/codedetail)
 * [@obnauticus (Thomas Kilbride)](https://github.com/obnauticus)
 * [@mstegen (Mike Stegen)](https://github.com/mstegen)
